@@ -2,11 +2,8 @@
 <html lang="en">
 <head>
 	<meta charset="utf-8">
-	<meta name="viewport"    content="width=device-width, initial-scale=1.0">
-	<meta name="description" content="">
-	<meta name="author"      content="Sergey Pozhilov (GetTemplate.com)">
 	
-	<title>Music Player | Home</title>
+	<title>Music Player | Application</title>
 
 	<link rel="shortcut icon" href="assets/images/gt_favicon.png">
 	
@@ -17,13 +14,6 @@
 	<!-- Custom styles for our template -->
 	<link rel="stylesheet" href="assets/css/bootstrap-theme.css" media="screen" >
 	<link rel="stylesheet" href="assets/css/main.css">
-	<link rel="stylesheet" href="assets/css/dropup.css">
-
-	<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-	<!--[if lt IE 9]>
-	<script src="assets/js/html5shiv.js"></script>
-	<script src="assets/js/respond.min.js"></script>
-	<![endif]-->
 </head>
 
 <body>
@@ -32,118 +22,97 @@
 		<div class="container">
 			<div class="navbar-collapse collapse">
 				<ul class="nav navbar-nav pull-right">
-					<li class="active"><a href="index.html">Home</a></li>
+					<li><a href="index.html">Home</a></li>
 					<li class="dropdown">
 						<a href="#" class="dropdown-toggle" data-toggle="dropdown">Pages <b class="caret"></b></a>
 						<ul class="dropdown-menu">
 							<li><a class="active" href="sidebar-left.html">Music Player</a></li>
 						</ul>
 					</li>
+					<li><a><span class="glyphicon glyphicon-user" aria-hidden="true"></span>
+						Username</a></li>
+					<li><a href="index.html">Logout</a></li>
 				</ul>
 			</div><!--/.nav-collapse -->
 		</div>
 	</div> 
 	<!-- /.navbar -->
 
-	<!--userhead-->
-	<div>
-
-	</div>
-	<!--/.userhead-->
-
 	<div class="wrap">
 		<header id="content-bg">
-			<div class="container">
-				<div class="row">
-					<div id="content">
-						<h1>MUSIC PLAYLIST</h1>
-						<div class="aligncenter">
-							    <table class="table">
-							      <tr>
-							        <th>Title</th>
-							        <th>Singer</th>
-							        <th>Duration</th>
-							      </tr>
-							      <tbody>
-							      	<tr>
-								      	<td>I Really Like You</td>
-								      	<td>Carly Rae Jepsen</td>
-								      	<td>3:04</td>
-							      	</tr>
-							      	<tr>
-								      	<td>Clarity</td>
-								      	<td>Zedd</td>
-								      	<td>3:04</td>
-							      	</tr>
-							      </tbody>
-							    </table>
-				 			 </div>
+						<div class="songs-box col-md-9">
+							<h4>[NAME OF PLAYLIST]</h4>
+							<button class="mybtn pull-right"><span class="glyphicon glyphicon-ok-sign" aria-hidden="true"></span></button>
+							<button class="mybtn pull-right"><span class="glyphicon glyphicon-plus-sign pull-right" aria-hidden="true"></span></button>
+							<BR><HR>
+
+							<table>
+								<thead>
+									<tr>
+										<th>Song Title</th><th>Singer</th><th>Duration</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr class="active">
+										<td>Clarity</td><td>Zedd</td><td>3:25</td>
+									</tr>
+									<tr>
+										<td>Blank Space</td><td>Taylor Swift</td><td>3:04</td>
+									</tr>
+								</tbody>
+							</table>					
 						</div>
-					</div>
-				</div>
-			</div>
+						<div class="playlist-box col-md-3">
+							<div class= "content">
+								<form class="form-inline">
+									<div class="form-group">
+								    <input  style="margin-bottom: 10px;" type="text" class="form-control" placeholder="New Playlist..." id="playlist_create">
+								  	</div>
+								  	 <button type="submit" class="btn btn-default btn-xs">
+								  	 	<span style="margin-right: 10px;" class="glyphicon glyphicon-plus" aria-hidden="true"></span>Create
+								  	 </button>
+								</form>
+								<table>
+									<thead>
+										<tr>
+											<th>
+												Playlist Name
+											</th>
+										</tr>
+									</thead>
+									<tbody class="clickable-row">
+										<tr class="success">
+											<td>Workout</td>
+											<td><button class="mybtn"><span class="glyphicon glyphicon-remove" aria-hidden="true"></span></button></td>
+											<td><button class="mybtn"><span class="glyphicon glyphicon-chevron-up" aria-hidden="true"></span></button></td>
+											<td><button class="mybtn"><span class="glyphicon glyphicon-chevron-down" aria-hidden="true"></span></button></td>	
+										</tr>
+										<tr>
+											<td>Party</td>
+											<td><button class="mybtn"><span class="glyphicon glyphicon-remove" aria-hidden="true"></span></button></td>
+											<td><button class="mybtn"><span class="glyphicon glyphicon-chevron-up" aria-hidden="true"></span></button></td>
+											<td><button class="mybtn"><span class="glyphicon glyphicon-chevron-down" aria-hidden="true"></span></button></td>	
+										</tr>
+									</tbody>
+								</table>
+							</div>
+						</div>
 		</header>	
 	</div>
 
 <!--<input type="file" id="mp3" size="100" accept="audio/*">-->
 		<div class="sticky-controls">
 			<div class="wrap">
-				<div class="controls">
-					<input type="image" style="margin-left: 5px;" class="toleft" src="assets/images/User@2x.png">
-					<img class= "block-break" src="" />
-					<input type="image" style = "margin-bottom: 5px;" src= "assets/images/Back@3x.png" alt="Back">
-					<input type="image"  style= "margin-left: 20px;margin-right: 20px;" src= "assets/images/Play-round@2x.png" alt="Play">
-					<input type="image" style = "margin-bottom: 5px;" src= "assets/images/Forward@3x.png" alt="Forward">
-					<img class= "block-break" src="" />
+				<div class="controls pull-left">
+					<li><a><span class="glyphicon glyphicon-backward" aria-hidden="true"></span></a
+					></li>
+					<li><a><span class="glyphicon glyphicon-play" aria-hidden="true"></span></a></li>
+					<li><a><span class="glyphicon glyphicon-pause" aria-hidden="true"></span></a></li>
+					<li><a><span class="glyphicon glyphicon-stop" aria-hidden="true"></span></a></li>
+					<li><a><span class="glyphicon glyphicon-forward" aria-hidden="true"></span></a></li>
 				</div>
 			</div>
 		</div>
-
-	<footer id="footer">
-
-		<div class="footer1">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-6 widget">
-						<h3 class="widget-title">Machine Project</h3>
-						<div class="widget-body">
-							<p>Music Player + , a machine project for
-								PROFSWD. Ruby on Rails compliance. Bootstrap used.
-							</p>
-							<p>Progressus</p>
-							<p>Date Submitted: March 7, 2015</p>
-						</div>
-					</div>
-
-				</div> <!-- /row of widgets -->
-			</div>
-		</div>
-		<div class="footer2">
-			<div class="container">
-				<div class="row">
-					
-					<div class="col-md-6 widget">
-						<div class="widget-body">
-							<p class="simplenav">
-								<a href="#">Home</a> | 
-								<b><a href="signup.html">Sign up</a></b>
-							</p>
-						</div>
-					</div>
-
-					<div class="col-md-6 widget">
-						<div class="widget-body">
-							<p class="text-right">
-								Copyright &copy; 2015, Abejuro, Mendoza
-							</p>
-						</div>
-					</div>
-
-				</div> <!-- /row of widgets -->
-			</div>
-		</div>
-	</footer>
-
 
 	<!-- JavaScript libs are placed at the end of the document so the pages load faster -->
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>

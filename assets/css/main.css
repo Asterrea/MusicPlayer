@@ -11,7 +11,7 @@
 		#head .btn-default:active, 
 		#head .btn-default.active { color:#fff; -webkit-box-shadow:inset 0px 0px 0px 3px #fff; -moz-box-shadow:inset 0px 0px 0px 3px #fff; box-shadow:inset 0px 0px 0px 3px #fff; background: transparent; }
 
-#content-bg { background:#181015 url( ../images/5.jpg) no-repeat; background-size: cover; min-height:650px; text-align: center; padding-top:240px; color:white; font-family:"Open sans", Helvetica, Arial; font-weight:300; }
+#content-bg { background:#181015 url( ../images/5.jpg) repeat; background-size: cover; min-height:650px; text-align: center; padding-top:100px; color:white; font-family:"Open sans", Helvetica, Arial; font-weight:300; }
 
 @media (max-width: 767px) {
 	#head { min-height:420px; padding-top:160px; }
@@ -92,19 +92,27 @@ img.pull-left { margin-right: 10px; }
 	  height: 70px;
 }
 
+.playlist-box{
+	height: 550px;
+	background-color: rgba(192,192,192,0.7);
+
+}
+
+.songs-box{
+	overflow: scroll;
+	overflow-x: hidden;
+	height: 510px;
+	background-color: transparent; ;
+}
+
 .controls{
-	margin-top: 5px;
-	padding-right: 70px;
+	margin-top: 15px;
+	margin-left: 10px;
 }
 .wrap{
   position: relative;
   margin: 0 auto;
   width:100%;
-}
-
-#content{
-  padding: 10px 0;
-  clear:both;
 }
 
 .block-break{
@@ -126,7 +134,58 @@ td{
 	text-align: left;
 }
 
-.toleft{
-	float: left;
+
+.controls li{
+	list-style: none;
+	display: inline;
 }
 
+.glyphicon.glyphicon-play,.glyphicon-backward,
+.glyphicon-forward,.glyphicon-pause,.glyphicon-stop,
+.glyphicon-plus-sign,.glyphicon-ok-sign{
+	font-size: 30px;
+}
+
+.glyphicon.glyphicon-remove{
+	color: red;
+}
+
+.playlist-box input{
+	border-radius: 10px;
+}
+.playlist-box label{
+	color: black;
+}
+
+.content{
+	margin-top: 40px;
+	margin-left: 0px;
+}
+
+.content table{
+	border: none;
+	width: 100%;
+	margin-top: 10px;
+	border-collapse: collapse;
+}
+
+.songs-box table{
+	border:none;
+	width: 100%;
+}
+
+.songs-box th{
+	font-style: italic;
+	font-size: 15px;
+}
+.clickable-row tr{
+	cursor:pointer;
+	border-bottom: 1pt solid white;
+}
+
+.mybtn{
+	background-color: transparent;
+	color: white;
+	border-color: transparent;
+	border: 0px;
+}
