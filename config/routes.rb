@@ -1,4 +1,10 @@
 Rails.application.routes.draw do
+  get 'session/register'
+
+  get 'session/login'
+
+  get 'session/signout'
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
@@ -53,5 +59,6 @@ Rails.application.routes.draw do
   #     # (app/controllers/admin/products_controller.rb)
   #     resources :products
   #   end
-  root 'music_player#test'
+  root 'session#register'
+  post '/login' => 'session#login'
 end

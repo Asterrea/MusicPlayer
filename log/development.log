@@ -462,3 +462,2355 @@ Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0
 
 Started GET "/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css?body=1" for 10.0.2.2 at 2015-03-06 05:18:36 +0000
 Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 10.0.2.2 at 2015-03-06 05:39:36 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MusicPlayerController#test as HTML
+  Rendered music_player/test.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 411ms (Views: 409.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css?body=1" for 10.0.2.2 at 2015-03-06 05:39:37 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 10.0.2.2 at 2015-03-06 05:39:37 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 10.0.2.2 at 2015-03-06 05:39:37 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 10.0.2.2 at 2015-03-06 05:39:37 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/music_player-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 10.0.2.2 at 2015-03-06 05:39:37 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/music_player-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 10.0.2.2 at 2015-03-06 05:39:37 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/audiojs-39d2552611734271844d6d5914b58a54.js?body=1" for 10.0.2.2 at 2015-03-06 05:39:37 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application-18d0d4f83b2c14db6ef744ba5de9ab17.js?body=1" for 10.0.2.2 at 2015-03-06 05:39:37 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/images/going%20out.mp3" for 10.0.2.2 at 2015-03-06 05:39:37 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [GET] "/assets/images/going%20out.mp3"):
+  actionpack (4.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.1.1) lib/web_console/middleware.rb:29:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.0) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  rack (1.6.0) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0) lib/rack/handler/webrick.rb:89:in `service'
+  /home/vagrant/.rvm/rubies/ruby-2.0.0-p598/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/vagrant/.rvm/rubies/ruby-2.0.0-p598/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/vagrant/.rvm/rubies/ruby-2.0.0-p598/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/vagrant/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (29.8ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.8ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.5ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (53.8ms)
+
+
+Started GET "/" for 10.0.2.2 at 2015-03-06 05:48:15 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MusicPlayerController#test as HTML
+  Rendered music_player/test.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 373ms (Views: 372.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 10.0.2.2 at 2015-03-06 05:48:16 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css?body=1" for 10.0.2.2 at 2015-03-06 05:48:16 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/music_player-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 10.0.2.2 at 2015-03-06 05:48:16 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 10.0.2.2 at 2015-03-06 05:48:16 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 10.0.2.2 at 2015-03-06 05:48:16 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/music_player-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 10.0.2.2 at 2015-03-06 05:48:16 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/audiojs-39d2552611734271844d6d5914b58a54.js?body=1" for 10.0.2.2 at 2015-03-06 05:48:16 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application-18d0d4f83b2c14db6ef744ba5de9ab17.js?body=1" for 10.0.2.2 at 2015-03-06 05:48:16 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/images/asd.jpg" for 10.0.2.2 at 2015-03-06 05:48:16 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [GET] "/assets/images/asd.jpg"):
+  actionpack (4.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.1.1) lib/web_console/middleware.rb:29:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.0) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  rack (1.6.0) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0) lib/rack/handler/webrick.rb:89:in `service'
+  /home/vagrant/.rvm/rubies/ruby-2.0.0-p598/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/vagrant/.rvm/rubies/ruby-2.0.0-p598/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/vagrant/.rvm/rubies/ruby-2.0.0-p598/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/vagrant/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.4ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.0ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.9ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (32.7ms)
+
+
+Started GET "/assets/images/going%20out.mp3" for 10.0.2.2 at 2015-03-06 05:48:16 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [GET] "/assets/images/going%20out.mp3"):
+  actionpack (4.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.1.1) lib/web_console/middleware.rb:29:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.0) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  rack (1.6.0) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0) lib/rack/handler/webrick.rb:89:in `service'
+  /home/vagrant/.rvm/rubies/ruby-2.0.0-p598/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/vagrant/.rvm/rubies/ruby-2.0.0-p598/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/vagrant/.rvm/rubies/ruby-2.0.0-p598/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/vagrant/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.9ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.6ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.1ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (27.9ms)
+
+
+Started GET "/" for 10.0.2.2 at 2015-03-06 05:53:58 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MusicPlayerController#test as HTML
+  Rendered music_player/test.html.erb within layouts/application (0.1ms)
+Completed 500 Internal Server Error in 465ms
+
+ActionView::Template::Error (wrong number of arguments (2 for 1)
+  (in /projects/mini2/musicPlayer/app/assets/javascripts/application.js:18)):
+    3: <head>
+    4:   <title>MusicPlayer</title>
+    5:   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    6:   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+    9: <body>
+  app/views/layouts/application.html.erb:6:in `_app_views_layouts_application_html_erb__236939267_89244720'
+
+
+  Rendered /home/vagrant/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (13.7ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (5.1ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.4ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (39.5ms)
+
+
+Started GET "/" for 10.0.2.2 at 2015-03-06 05:55:14 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MusicPlayerController#test as HTML
+  Rendered music_player/test.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 442ms (Views: 441.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css?body=1" for 10.0.2.2 at 2015-03-06 05:55:14 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/music_player-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 10.0.2.2 at 2015-03-06 05:55:14 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 10.0.2.2 at 2015-03-06 05:55:14 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 10.0.2.2 at 2015-03-06 05:55:14 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 10.0.2.2 at 2015-03-06 05:55:14 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/music_player-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 10.0.2.2 at 2015-03-06 05:55:15 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/audiojs-39d2552611734271844d6d5914b58a54.js?body=1" for 10.0.2.2 at 2015-03-06 05:55:15 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application-18d0d4f83b2c14db6ef744ba5de9ab17.js?body=1" for 10.0.2.2 at 2015-03-06 05:55:15 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/images/asd.jpg" for 10.0.2.2 at 2015-03-06 05:55:15 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [GET] "/assets/images/asd.jpg"):
+  actionpack (4.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.1.1) lib/web_console/middleware.rb:29:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.0) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  rack (1.6.0) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0) lib/rack/handler/webrick.rb:89:in `service'
+  /home/vagrant/.rvm/rubies/ruby-2.0.0-p598/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/vagrant/.rvm/rubies/ruby-2.0.0-p598/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/vagrant/.rvm/rubies/ruby-2.0.0-p598/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/vagrant/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.8ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.5ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (27.4ms)
+
+
+Started GET "/assets/images/going%20out.mp3" for 10.0.2.2 at 2015-03-06 05:55:15 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [GET] "/assets/images/going%20out.mp3"):
+  actionpack (4.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.1.1) lib/web_console/middleware.rb:29:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.0) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  rack (1.6.0) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0) lib/rack/handler/webrick.rb:89:in `service'
+  /home/vagrant/.rvm/rubies/ruby-2.0.0-p598/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/vagrant/.rvm/rubies/ruby-2.0.0-p598/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/vagrant/.rvm/rubies/ruby-2.0.0-p598/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/vagrant/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.6ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.0ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.7ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.0ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (35.4ms)
+
+
+Started GET "/assets/music_player-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 10.0.2.2 at 2015-03-06 05:55:59 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css?body=1" for 10.0.2.2 at 2015-03-06 05:55:59 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 10.0.2.2 at 2015-03-06 05:56:10 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MusicPlayerController#test as HTML
+  Rendered music_player/test.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 389ms (Views: 387.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css?body=1" for 10.0.2.2 at 2015-03-06 05:56:10 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 10.0.2.2 at 2015-03-06 05:56:11 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/music_player-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 10.0.2.2 at 2015-03-06 05:56:11 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 10.0.2.2 at 2015-03-06 05:56:11 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 10.0.2.2 at 2015-03-06 05:56:11 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/music_player-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 10.0.2.2 at 2015-03-06 05:56:11 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/audiojs-39d2552611734271844d6d5914b58a54.js?body=1" for 10.0.2.2 at 2015-03-06 05:56:11 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application-18d0d4f83b2c14db6ef744ba5de9ab17.js?body=1" for 10.0.2.2 at 2015-03-06 05:56:11 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/images/asd.jpg" for 10.0.2.2 at 2015-03-06 05:56:11 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [GET] "/assets/images/asd.jpg"):
+  actionpack (4.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.1.1) lib/web_console/middleware.rb:29:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.0) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  rack (1.6.0) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0) lib/rack/handler/webrick.rb:89:in `service'
+  /home/vagrant/.rvm/rubies/ruby-2.0.0-p598/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/vagrant/.rvm/rubies/ruby-2.0.0-p598/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/vagrant/.rvm/rubies/ruby-2.0.0-p598/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/vagrant/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.9ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.1ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.9ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.9ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (37.5ms)
+
+
+Started GET "/assets/images/going%20out.mp3" for 10.0.2.2 at 2015-03-06 05:56:11 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [GET] "/assets/images/going%20out.mp3"):
+  actionpack (4.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.1.1) lib/web_console/middleware.rb:29:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.0) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  rack (1.6.0) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0) lib/rack/handler/webrick.rb:89:in `service'
+  /home/vagrant/.rvm/rubies/ruby-2.0.0-p598/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/vagrant/.rvm/rubies/ruby-2.0.0-p598/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/vagrant/.rvm/rubies/ruby-2.0.0-p598/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/vagrant/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.9ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.1ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (28.2ms)
+
+
+Started GET "/" for 10.0.2.2 at 2015-03-06 15:59:07 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MusicPlayerController#test as HTML
+  Rendered music_player/test.html.erb within layouts/application (68.7ms)
+Completed 500 Internal Server Error in 296ms
+
+ActionView::Template::Error (undefined local variable or method `out' for #<#<Class:0xc2b9aec>:0xc2c3664>):
+    1: <audio id="demo" src= <% audio_tag(going out.mp3) %>></audio>
+    2: <div>
+    3:   <button onclick="document.getElementById('demo').play()">Play the Audio</button>
+    4:   <button onclick="document.getElementById('demo').pause()">Pause the Audio</button>
+  app/views/music_player/test.html.erb:1:in `_app_views_music_player_test_html_erb__15102499_102157560'
+
+
+  Rendered /home/vagrant/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (9.0ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.3ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (33.0ms)
+
+
+Started GET "/" for 10.0.2.2 at 2015-03-06 15:59:40 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MusicPlayerController#test as HTML
+  Rendered music_player/test.html.erb within layouts/application (80.9ms)
+Completed 500 Internal Server Error in 182ms
+
+ActionView::Template::Error (undefined local variable or method `goingOut' for #<#<Class:0xc2b9aec>:0xc301f2c>):
+    1: <audio id="demo" src= <% audio_tag(goingOut.mp3) %>></audio>
+    2: <div>
+    3:   <button onclick="document.getElementById('demo').play()">Play the Audio</button>
+    4:   <button onclick="document.getElementById('demo').pause()">Pause the Audio</button>
+  app/views/music_player/test.html.erb:1:in `_app_views_music_player_test_html_erb__15102499_102238550'
+
+
+  Rendered /home/vagrant/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (9.5ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.3ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (30.4ms)
+
+
+Started GET "/" for 10.0.2.2 at 2015-03-06 16:00:08 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MusicPlayerController#test as HTML
+  Rendered music_player/test.html.erb within layouts/application (185.7ms)
+Completed 200 OK in 1876ms (Views: 1875.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css?body=1" for 10.0.2.2 at 2015-03-06 16:00:10 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 10.0.2.2 at 2015-03-06 16:00:10 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/music_player-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 10.0.2.2 at 2015-03-06 16:00:10 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 10.0.2.2 at 2015-03-06 16:00:10 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 10.0.2.2 at 2015-03-06 16:00:11 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/music_player-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 10.0.2.2 at 2015-03-06 16:00:11 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/audiojs-39d2552611734271844d6d5914b58a54.js?body=1" for 10.0.2.2 at 2015-03-06 16:00:11 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application-18d0d4f83b2c14db6ef744ba5de9ab17.js?body=1" for 10.0.2.2 at 2015-03-06 16:00:11 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/images/asd.jpg" for 10.0.2.2 at 2015-03-06 16:00:11 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [GET] "/assets/images/asd.jpg"):
+  actionpack (4.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.1.1) lib/web_console/middleware.rb:29:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.0) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  rack (1.6.0) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0) lib/rack/handler/webrick.rb:89:in `service'
+  /home/vagrant/.rvm/rubies/ruby-2.0.0-p598/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/vagrant/.rvm/rubies/ruby-2.0.0-p598/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/vagrant/.rvm/rubies/ruby-2.0.0-p598/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/vagrant/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.8ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (125.8ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (172.8ms)
+
+
+Started GET "/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css?body=1" for 10.0.2.2 at 2015-03-06 16:00:19 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/music_player-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 10.0.2.2 at 2015-03-06 16:00:19 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 10.0.2.2 at 2015-03-06 16:02:07 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MusicPlayerController#test as HTML
+  Rendered music_player/test.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 503ms (Views: 502.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css?body=1" for 10.0.2.2 at 2015-03-06 16:02:08 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/music_player-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 10.0.2.2 at 2015-03-06 16:02:08 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 10.0.2.2 at 2015-03-06 16:02:08 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 10.0.2.2 at 2015-03-06 16:02:08 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 10.0.2.2 at 2015-03-06 16:02:08 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/music_player-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 10.0.2.2 at 2015-03-06 16:02:08 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/audiojs-39d2552611734271844d6d5914b58a54.js?body=1" for 10.0.2.2 at 2015-03-06 16:02:08 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application-18d0d4f83b2c14db6ef744ba5de9ab17.js?body=1" for 10.0.2.2 at 2015-03-06 16:02:08 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/images/asd.jpg" for 10.0.2.2 at 2015-03-06 16:02:09 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [GET] "/assets/images/asd.jpg"):
+  actionpack (4.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.1.1) lib/web_console/middleware.rb:29:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.0) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  rack (1.6.0) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0) lib/rack/handler/webrick.rb:89:in `service'
+  /home/vagrant/.rvm/rubies/ruby-2.0.0-p598/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/vagrant/.rvm/rubies/ruby-2.0.0-p598/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/vagrant/.rvm/rubies/ruby-2.0.0-p598/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/vagrant/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.2ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.3ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (25.4ms)
+
+
+Started GET "/assets/images/asd.jpg" for 10.0.2.2 at 2015-03-06 16:02:27 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [GET] "/assets/images/asd.jpg"):
+  actionpack (4.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.1.1) lib/web_console/middleware.rb:29:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.0) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  rack (1.6.0) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0) lib/rack/handler/webrick.rb:89:in `service'
+  /home/vagrant/.rvm/rubies/ruby-2.0.0-p598/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/vagrant/.rvm/rubies/ruby-2.0.0-p598/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/vagrant/.rvm/rubies/ruby-2.0.0-p598/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/vagrant/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.8ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.4ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.3ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (26.9ms)
+
+
+Started GET "/" for 10.0.2.2 at 2015-03-06 16:03:29 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MusicPlayerController#test as HTML
+  Rendered music_player/test.html.erb within layouts/application (105.4ms)
+Completed 200 OK in 534ms (Views: 532.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css?body=1" for 10.0.2.2 at 2015-03-06 16:03:30 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 10.0.2.2 at 2015-03-06 16:03:30 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/music_player-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 10.0.2.2 at 2015-03-06 16:03:30 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 10.0.2.2 at 2015-03-06 16:03:30 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 10.0.2.2 at 2015-03-06 16:03:30 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/music_player-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 10.0.2.2 at 2015-03-06 16:03:30 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/audiojs-39d2552611734271844d6d5914b58a54.js?body=1" for 10.0.2.2 at 2015-03-06 16:03:30 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application-18d0d4f83b2c14db6ef744ba5de9ab17.js?body=1" for 10.0.2.2 at 2015-03-06 16:03:30 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 10.0.2.2 at 2015-03-06 16:03:46 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MusicPlayerController#test as HTML
+  Rendered music_player/test.html.erb within layouts/application (10.4ms)
+Completed 200 OK in 435ms (Views: 434.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css?body=1" for 10.0.2.2 at 2015-03-06 16:03:46 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 10.0.2.2 at 2015-03-06 16:03:46 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 10.0.2.2 at 2015-03-06 16:03:46 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/music_player-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 10.0.2.2 at 2015-03-06 16:03:46 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 10.0.2.2 at 2015-03-06 16:03:46 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/music_player-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 10.0.2.2 at 2015-03-06 16:03:47 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/audiojs-39d2552611734271844d6d5914b58a54.js?body=1" for 10.0.2.2 at 2015-03-06 16:03:47 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application-18d0d4f83b2c14db6ef744ba5de9ab17.js?body=1" for 10.0.2.2 at 2015-03-06 16:03:47 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 10.0.2.2 at 2015-03-06 16:09:35 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MusicPlayerController#test as HTML
+  Rendered music_player/test.html.erb within layouts/application (17.8ms)
+Completed 200 OK in 663ms (Views: 662.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 10.0.2.2 at 2015-03-06 16:09:36 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 10.0.2.2 at 2015-03-06 16:09:36 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/music_player-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 10.0.2.2 at 2015-03-06 16:09:36 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 10.0.2.2 at 2015-03-06 16:09:36 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css?body=1" for 10.0.2.2 at 2015-03-06 16:09:37 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/music_player-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 10.0.2.2 at 2015-03-06 16:09:37 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/audiojs-39d2552611734271844d6d5914b58a54.js?body=1" for 10.0.2.2 at 2015-03-06 16:09:37 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application-fd12b6ea3eb887af312464b73639471c.js?body=1" for 10.0.2.2 at 2015-03-06 16:09:37 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 10.0.2.2 at 2015-03-06 16:10:07 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MusicPlayerController#test as HTML
+  Rendered music_player/test.html.erb within layouts/application (16.0ms)
+Completed 200 OK in 615ms (Views: 613.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/music_player-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 10.0.2.2 at 2015-03-06 16:10:07 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css?body=1" for 10.0.2.2 at 2015-03-06 16:10:08 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 10.0.2.2 at 2015-03-06 16:10:08 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 10.0.2.2 at 2015-03-06 16:10:08 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 10.0.2.2 at 2015-03-06 16:10:08 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/music_player-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 10.0.2.2 at 2015-03-06 16:10:08 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application-9a845f0bbdddf8332698c5afe26d41f8.js?body=1" for 10.0.2.2 at 2015-03-06 16:10:08 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/audiojs-39d2552611734271844d6d5914b58a54.js?body=1" for 10.0.2.2 at 2015-03-06 16:10:08 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 10.0.2.2 at 2015-03-06 16:10:32 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MusicPlayerController#test as HTML
+  Rendered music_player/test.html.erb within layouts/application (14.3ms)
+Completed 200 OK in 611ms (Views: 610.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 10.0.2.2 at 2015-03-06 16:10:33 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 10.0.2.2 at 2015-03-06 16:10:33 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/music_player-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 10.0.2.2 at 2015-03-06 16:10:33 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 10.0.2.2 at 2015-03-06 16:10:33 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css?body=1" for 10.0.2.2 at 2015-03-06 16:10:33 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/music_player-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 10.0.2.2 at 2015-03-06 16:10:33 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/audiojs-39d2552611734271844d6d5914b58a54.js?body=1" for 10.0.2.2 at 2015-03-06 16:10:33 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application-f9ecc7e538d39b0374413f96399d6fd5.js?body=1" for 10.0.2.2 at 2015-03-06 16:10:33 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 10.0.2.2 at 2015-03-06 16:13:24 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MusicPlayerController#test as HTML
+  Rendered music_player/test.html.erb within layouts/application (12.1ms)
+Completed 200 OK in 646ms (Views: 644.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 10.0.2.2 at 2015-03-06 16:13:24 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 10.0.2.2 at 2015-03-06 16:13:24 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/music_player-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 10.0.2.2 at 2015-03-06 16:13:24 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 10.0.2.2 at 2015-03-06 16:13:24 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css?body=1" for 10.0.2.2 at 2015-03-06 16:13:25 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/music_player-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 10.0.2.2 at 2015-03-06 16:13:25 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/audiojs-39d2552611734271844d6d5914b58a54.js?body=1" for 10.0.2.2 at 2015-03-06 16:13:25 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application-2a2ae5e075761643246e7edaf8d3599b.js?body=1" for 10.0.2.2 at 2015-03-06 16:13:25 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/%3Caudio" for 10.0.2.2 at 2015-03-06 16:13:25 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [GET] "/%3Caudio"):
+  actionpack (4.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.1.1) lib/web_console/middleware.rb:29:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.0) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  rack (1.6.0) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0) lib/rack/handler/webrick.rb:89:in `service'
+  /home/vagrant/.rvm/rubies/ruby-2.0.0-p598/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/vagrant/.rvm/rubies/ruby-2.0.0-p598/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/vagrant/.rvm/rubies/ruby-2.0.0-p598/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/vagrant/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.1ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.2ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.5ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (26.6ms)
+
+
+Started GET "/" for 10.0.2.2 at 2015-03-06 16:14:14 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MusicPlayerController#test as HTML
+  Rendered music_player/test.html.erb within layouts/application (12.1ms)
+Completed 200 OK in 487ms (Views: 486.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 10.0.2.2 at 2015-03-06 16:14:14 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 10.0.2.2 at 2015-03-06 16:14:15 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css?body=1" for 10.0.2.2 at 2015-03-06 16:14:15 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 10.0.2.2 at 2015-03-06 16:14:15 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/music_player-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 10.0.2.2 at 2015-03-06 16:14:15 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/music_player-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 10.0.2.2 at 2015-03-06 16:14:15 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/audiojs-39d2552611734271844d6d5914b58a54.js?body=1" for 10.0.2.2 at 2015-03-06 16:14:15 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application-2a2ae5e075761643246e7edaf8d3599b.js?body=1" for 10.0.2.2 at 2015-03-06 16:14:15 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/%3Caudio%20src=" for 10.0.2.2 at 2015-03-06 16:14:15 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [GET] "/%3Caudio%20src="):
+  actionpack (4.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.1.1) lib/web_console/middleware.rb:29:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.0) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  rack (1.6.0) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0) lib/rack/handler/webrick.rb:89:in `service'
+  /home/vagrant/.rvm/rubies/ruby-2.0.0-p598/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/vagrant/.rvm/rubies/ruby-2.0.0-p598/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/vagrant/.rvm/rubies/ruby-2.0.0-p598/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/vagrant/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.9ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.9ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.7ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (27.8ms)
+
+
+Started GET "/" for 10.0.2.2 at 2015-03-06 16:14:28 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MusicPlayerController#test as HTML
+  Rendered music_player/test.html.erb within layouts/application (11.4ms)
+Completed 200 OK in 441ms (Views: 440.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css?body=1" for 10.0.2.2 at 2015-03-06 16:14:29 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 10.0.2.2 at 2015-03-06 16:14:29 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/music_player-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 10.0.2.2 at 2015-03-06 16:14:29 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 10.0.2.2 at 2015-03-06 16:14:29 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/music_player-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 10.0.2.2 at 2015-03-06 16:14:29 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 10.0.2.2 at 2015-03-06 16:14:29 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/audiojs-39d2552611734271844d6d5914b58a54.js?body=1" for 10.0.2.2 at 2015-03-06 16:14:29 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application-2a2ae5e075761643246e7edaf8d3599b.js?body=1" for 10.0.2.2 at 2015-03-06 16:14:29 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/%3Caudio" for 10.0.2.2 at 2015-03-06 16:14:29 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [GET] "/%3Caudio"):
+  actionpack (4.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.1.1) lib/web_console/middleware.rb:29:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.0) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  rack (1.6.0) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0) lib/rack/handler/webrick.rb:89:in `service'
+  /home/vagrant/.rvm/rubies/ruby-2.0.0-p598/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/vagrant/.rvm/rubies/ruby-2.0.0-p598/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/vagrant/.rvm/rubies/ruby-2.0.0-p598/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/vagrant/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.5ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.8ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (27.8ms)
+
+
+Started GET "/" for 10.0.2.2 at 2015-03-06 16:14:38 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MusicPlayerController#test as HTML
+  Rendered music_player/test.html.erb within layouts/application (1.1ms)
+Completed 500 Internal Server Error in 96ms
+
+SyntaxError (/projects/mini2/musicPlayer/app/views/music_player/test.html.erb:1: syntax error, unexpected '>'
+... audio_tag("going out.mp3") % ></audio>
+...                               ^
+/projects/mini2/musicPlayer/app/views/music_player/test.html.erb:3: unknown regexp options - btt
+/projects/mini2/musicPlayer/app/views/music_player/test.html.erb:4: syntax error, unexpected '<'
+  <button onclick="document.getE...
+   ^
+/projects/mini2/musicPlayer/app/views/music_player/test.html.erb:4: syntax error, unexpected tIDENTIFIER, expecting keyword_do or '{' or '('
+...ById('demo').pause()">Pause the Audio</button>
+...                               ^
+/projects/mini2/musicPlayer/app/views/music_player/test.html.erb:5: unknown regexp options - btt
+/projects/mini2/musicPlayer/app/views/music_player/test.html.erb:6: syntax error, unexpected '<'
+  <button onclick="document.getE...
+   ^
+/projects/mini2/musicPlayer/app/views/music_player/test.html.erb:6: syntax error, unexpected tCONSTANT, expecting keyword_do or '{' or '('
+...').volume-=0.1">Decrease Volume</button>
+...                               ^
+/projects/mini2/musicPlayer/app/views/music_player/test.html.erb:8: unknown regexp options - dv
+/projects/mini2/musicPlayer/app/views/music_player/test.html.erb:9: syntax error, unexpected '<'
+<img src= <% image_tag("asd.jp...
+ ^
+/projects/mini2/musicPlayer/app/views/music_player/test.html.erb:9: syntax error, unexpected '<'
+<img src= <% image_tag("asd.jpg") );@out...
+           ^):
+  app/views/music_player/test.html.erb:1: syntax error, unexpected '>'
+  app/views/music_player/test.html.erb:3: unknown regexp options - btt
+  app/views/music_player/test.html.erb:4: syntax error, unexpected '<'
+  app/views/music_player/test.html.erb:4: syntax error, unexpected tIDENTIFIER, expecting keyword_do or '{' or '('
+  app/views/music_player/test.html.erb:5: unknown regexp options - btt
+  app/views/music_player/test.html.erb:6: syntax error, unexpected '<'
+  app/views/music_player/test.html.erb:6: syntax error, unexpected tCONSTANT, expecting keyword_do or '{' or '('
+  app/views/music_player/test.html.erb:8: unknown regexp options - dv
+  app/views/music_player/test.html.erb:9: syntax error, unexpected '<'
+  app/views/music_player/test.html.erb:9: syntax error, unexpected '<'
+
+
+  Rendered /home/vagrant/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (60.7ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.8ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.8ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (89.4ms)
+
+
+Started GET "/" for 10.0.2.2 at 2015-03-06 16:14:55 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MusicPlayerController#test as HTML
+  Rendered music_player/test.html.erb within layouts/application (9.8ms)
+Completed 200 OK in 462ms (Views: 461.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 10.0.2.2 at 2015-03-06 16:14:55 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css?body=1" for 10.0.2.2 at 2015-03-06 16:14:55 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 10.0.2.2 at 2015-03-06 16:14:55 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 10.0.2.2 at 2015-03-06 16:14:55 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/music_player-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 10.0.2.2 at 2015-03-06 16:14:55 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/music_player-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 10.0.2.2 at 2015-03-06 16:14:56 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/audiojs-39d2552611734271844d6d5914b58a54.js?body=1" for 10.0.2.2 at 2015-03-06 16:14:56 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application-2a2ae5e075761643246e7edaf8d3599b.js?body=1" for 10.0.2.2 at 2015-03-06 16:14:56 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/%3Cimg" for 10.0.2.2 at 2015-03-06 16:14:56 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [GET] "/%3Cimg"):
+  actionpack (4.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.1.1) lib/web_console/middleware.rb:29:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.0) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  rack (1.6.0) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0) lib/rack/handler/webrick.rb:89:in `service'
+  /home/vagrant/.rvm/rubies/ruby-2.0.0-p598/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/vagrant/.rvm/rubies/ruby-2.0.0-p598/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/vagrant/.rvm/rubies/ruby-2.0.0-p598/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/vagrant/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.8ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.9ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.9ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (27.6ms)
+
+
+Started GET "/%3Caudio" for 10.0.2.2 at 2015-03-06 16:14:56 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [GET] "/%3Caudio"):
+  actionpack (4.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.1.1) lib/web_console/middleware.rb:29:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.0) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  rack (1.6.0) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0) lib/rack/handler/webrick.rb:89:in `service'
+  /home/vagrant/.rvm/rubies/ruby-2.0.0-p598/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/vagrant/.rvm/rubies/ruby-2.0.0-p598/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/vagrant/.rvm/rubies/ruby-2.0.0-p598/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/vagrant/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.8ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.5ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (27.3ms)
+
+
+Started GET "/" for 10.0.2.2 at 2015-03-06 16:20:49 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MusicPlayerController#test as HTML
+  Rendered music_player/test.html.erb within layouts/application (102.2ms)
+Completed 200 OK in 535ms (Views: 533.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 10.0.2.2 at 2015-03-06 16:20:50 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 10.0.2.2 at 2015-03-06 16:20:50 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/music_player-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 10.0.2.2 at 2015-03-06 16:20:50 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 10.0.2.2 at 2015-03-06 16:20:50 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css?body=1" for 10.0.2.2 at 2015-03-06 16:20:50 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/music_player-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 10.0.2.2 at 2015-03-06 16:20:50 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/audiojs-39d2552611734271844d6d5914b58a54.js?body=1" for 10.0.2.2 at 2015-03-06 16:20:50 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application-2a2ae5e075761643246e7edaf8d3599b.js?body=1" for 10.0.2.2 at 2015-03-06 16:20:51 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/%3Cimg" for 10.0.2.2 at 2015-03-06 16:20:51 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [GET] "/%3Cimg"):
+  actionpack (4.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.1.1) lib/web_console/middleware.rb:29:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.0) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  rack (1.6.0) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0) lib/rack/handler/webrick.rb:89:in `service'
+  /home/vagrant/.rvm/rubies/ruby-2.0.0-p598/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/vagrant/.rvm/rubies/ruby-2.0.0-p598/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/vagrant/.rvm/rubies/ruby-2.0.0-p598/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/vagrant/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.8ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.4ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.7ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (26.6ms)
+
+
+Started GET "/%3Caudio" for 10.0.2.2 at 2015-03-06 16:20:51 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [GET] "/%3Caudio"):
+  actionpack (4.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.1.1) lib/web_console/middleware.rb:29:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.0) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  rack (1.6.0) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0) lib/rack/handler/webrick.rb:89:in `service'
+  /home/vagrant/.rvm/rubies/ruby-2.0.0-p598/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/vagrant/.rvm/rubies/ruby-2.0.0-p598/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/vagrant/.rvm/rubies/ruby-2.0.0-p598/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/vagrant/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.5ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.9ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (26.2ms)
+
+
+Started GET "/" for 10.0.2.2 at 2015-03-06 16:21:07 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MusicPlayerController#test as HTML
+  Rendered music_player/test.html.erb within layouts/application (67.9ms)
+Completed 200 OK in 533ms (Views: 532.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css?body=1" for 10.0.2.2 at 2015-03-06 16:21:08 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/music_player-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 10.0.2.2 at 2015-03-06 16:21:08 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 10.0.2.2 at 2015-03-06 16:21:08 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 10.0.2.2 at 2015-03-06 16:21:08 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 10.0.2.2 at 2015-03-06 16:21:08 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/music_player-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 10.0.2.2 at 2015-03-06 16:21:08 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/audiojs-39d2552611734271844d6d5914b58a54.js?body=1" for 10.0.2.2 at 2015-03-06 16:21:08 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application-2a2ae5e075761643246e7edaf8d3599b.js?body=1" for 10.0.2.2 at 2015-03-06 16:21:08 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 10.0.2.2 at 2015-03-06 16:22:10 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MusicPlayerController#test as HTML
+  Rendered music_player/test.html.erb within layouts/application (96.1ms)
+Completed 200 OK in 532ms (Views: 530.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/music_player-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 10.0.2.2 at 2015-03-06 16:22:11 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css?body=1" for 10.0.2.2 at 2015-03-06 16:22:11 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 10.0.2.2 at 2015-03-06 16:22:11 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 10.0.2.2 at 2015-03-06 16:22:11 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/music_player-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 10.0.2.2 at 2015-03-06 16:22:11 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 10.0.2.2 at 2015-03-06 16:22:11 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/audiojs-39d2552611734271844d6d5914b58a54.js?body=1" for 10.0.2.2 at 2015-03-06 16:22:11 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application-2a2ae5e075761643246e7edaf8d3599b.js?body=1" for 10.0.2.2 at 2015-03-06 16:22:12 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 10.0.2.2 at 2015-03-06 16:22:58 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MusicPlayerController#test as HTML
+  Rendered music_player/test.html.erb within layouts/application (67.8ms)
+Completed 200 OK in 535ms (Views: 533.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 10.0.2.2 at 2015-03-06 16:22:59 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/music_player-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 10.0.2.2 at 2015-03-06 16:22:59 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 10.0.2.2 at 2015-03-06 16:22:59 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css?body=1" for 10.0.2.2 at 2015-03-06 16:22:59 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 10.0.2.2 at 2015-03-06 16:22:59 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/music_player-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 10.0.2.2 at 2015-03-06 16:22:59 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/audiojs-39d2552611734271844d6d5914b58a54.js?body=1" for 10.0.2.2 at 2015-03-06 16:22:59 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application-2a2ae5e075761643246e7edaf8d3599b.js?body=1" for 10.0.2.2 at 2015-03-06 16:22:59 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 10.0.2.2 at 2015-03-06 16:24:12 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MusicPlayerController#test as HTML
+  Rendered music_player/test.html.erb within layouts/application (6.4ms)
+Completed 200 OK in 470ms (Views: 469.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 10.0.2.2 at 2015-03-06 16:24:13 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/music_player-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 10.0.2.2 at 2015-03-06 16:24:13 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css?body=1" for 10.0.2.2 at 2015-03-06 16:24:13 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 10.0.2.2 at 2015-03-06 16:24:13 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 10.0.2.2 at 2015-03-06 16:24:13 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/music_player-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 10.0.2.2 at 2015-03-06 16:24:13 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/audiojs-39d2552611734271844d6d5914b58a54.js?body=1" for 10.0.2.2 at 2015-03-06 16:24:13 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application-2a2ae5e075761643246e7edaf8d3599b.js?body=1" for 10.0.2.2 at 2015-03-06 16:24:13 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/asd.jpg" for 10.0.2.2 at 2015-03-06 16:24:13 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [GET] "/assets/asd.jpg"):
+  actionpack (4.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.1.1) lib/web_console/middleware.rb:29:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.0) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  rack (1.6.0) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0) lib/rack/handler/webrick.rb:89:in `service'
+  /home/vagrant/.rvm/rubies/ruby-2.0.0-p598/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/vagrant/.rvm/rubies/ruby-2.0.0-p598/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/vagrant/.rvm/rubies/ruby-2.0.0-p598/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/vagrant/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.5ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.6ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.7ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (27.6ms)
+
+
+Started GET "/" for 10.0.2.2 at 2015-03-06 16:25:16 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ArgumentError ('/assets/asd.jpg' is not a supported controller name. This can lead to potential routing problems. See http://guides.rubyonrails.org/routing.html#specifying-a-controller-to-use):
+  config/routes.rb:57:in `block in <top (required)>'
+  config/routes.rb:1:in `<top (required)>'
+
+
+  Rendered /home/vagrant/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.9ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.7ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (30.0ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (57.6ms)
+
+
+Started GET "/" for 10.0.2.2 at 2015-03-06 16:46:49 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MusicPlayerController#test as HTML
+  Rendered music_player/test.html.erb within layouts/application (69.2ms)
+Completed 200 OK in 535ms (Views: 533.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css?body=1" for 10.0.2.2 at 2015-03-06 16:46:50 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/music_player-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 10.0.2.2 at 2015-03-06 16:46:50 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 10.0.2.2 at 2015-03-06 16:46:50 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 10.0.2.2 at 2015-03-06 16:46:50 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 10.0.2.2 at 2015-03-06 16:46:50 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/music_player-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 10.0.2.2 at 2015-03-06 16:46:50 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/audiojs-39d2552611734271844d6d5914b58a54.js?body=1" for 10.0.2.2 at 2015-03-06 16:46:50 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application-2a2ae5e075761643246e7edaf8d3599b.js?body=1" for 10.0.2.2 at 2015-03-06 16:46:50 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 10.0.2.2 at 2015-03-06 16:46:50 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 10.0.2.2 at 2015-03-06 16:46:50 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/music_player-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 10.0.2.2 at 2015-03-06 16:46:50 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 10.0.2.2 at 2015-03-06 16:47:15 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MusicPlayerController#test as HTML
+  Rendered music_player/test.html.erb within layouts/application (67.5ms)
+Completed 200 OK in 533ms (Views: 532.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css?body=1" for 10.0.2.2 at 2015-03-06 16:47:16 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 10.0.2.2 at 2015-03-06 16:47:16 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 10.0.2.2 at 2015-03-06 16:47:16 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/music_player-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 10.0.2.2 at 2015-03-06 16:47:16 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 10.0.2.2 at 2015-03-06 16:47:16 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/music_player-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 10.0.2.2 at 2015-03-06 16:47:16 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/audiojs-39d2552611734271844d6d5914b58a54.js?body=1" for 10.0.2.2 at 2015-03-06 16:47:17 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application-2a2ae5e075761643246e7edaf8d3599b.js?body=1" for 10.0.2.2 at 2015-03-06 16:47:17 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 10.0.2.2 at 2015-03-06 16:47:26 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MusicPlayerController#test as HTML
+  Rendered music_player/test.html.erb within layouts/application (67.1ms)
+Completed 200 OK in 535ms (Views: 534.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 10.0.2.2 at 2015-03-06 16:47:27 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css?body=1" for 10.0.2.2 at 2015-03-06 16:47:27 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 10.0.2.2 at 2015-03-06 16:47:27 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/music_player-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 10.0.2.2 at 2015-03-06 16:47:27 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/music_player-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 10.0.2.2 at 2015-03-06 16:47:27 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 10.0.2.2 at 2015-03-06 16:47:27 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/audiojs-39d2552611734271844d6d5914b58a54.js?body=1" for 10.0.2.2 at 2015-03-06 16:47:27 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application-2a2ae5e075761643246e7edaf8d3599b.js?body=1" for 10.0.2.2 at 2015-03-06 16:47:28 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 10.0.2.2 at 2015-03-06 16:47:49 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MusicPlayerController#test as HTML
+  Rendered music_player/test.html.erb within layouts/application (9.7ms)
+Completed 200 OK in 466ms (Views: 465.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css?body=1" for 10.0.2.2 at 2015-03-06 16:47:50 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/music_player-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 10.0.2.2 at 2015-03-06 16:47:50 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 10.0.2.2 at 2015-03-06 16:47:50 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 10.0.2.2 at 2015-03-06 16:47:50 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/music_player-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 10.0.2.2 at 2015-03-06 16:47:50 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 10.0.2.2 at 2015-03-06 16:47:50 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/audiojs-39d2552611734271844d6d5914b58a54.js?body=1" for 10.0.2.2 at 2015-03-06 16:47:50 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application-2a2ae5e075761643246e7edaf8d3599b.js?body=1" for 10.0.2.2 at 2015-03-06 16:47:50 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 10.0.2.2 at 2015-03-06 17:00:42 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MusicPlayerController#test as HTML
+  Rendered music_player/test.html.erb within layouts/application (12.7ms)
+Completed 200 OK in 472ms (Views: 471.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css?body=1" for 10.0.2.2 at 2015-03-06 17:00:43 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/music_player-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 10.0.2.2 at 2015-03-06 17:00:43 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 10.0.2.2 at 2015-03-06 17:00:43 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/music_player-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 10.0.2.2 at 2015-03-06 17:00:43 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 10.0.2.2 at 2015-03-06 17:00:43 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 10.0.2.2 at 2015-03-06 17:00:43 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/audiojs-39d2552611734271844d6d5914b58a54.js?body=1" for 10.0.2.2 at 2015-03-06 17:00:44 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application-2a2ae5e075761643246e7edaf8d3599b.js?body=1" for 10.0.2.2 at 2015-03-06 17:00:44 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 10.0.2.2 at 2015-03-06 17:04:11 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MusicPlayerController#test as HTML
+  Rendered music_player/test.html.erb within layouts/application (9.7ms)
+Completed 200 OK in 431ms (Views: 430.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 10.0.2.2 at 2015-03-06 17:04:12 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 10.0.2.2 at 2015-03-06 17:04:12 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css?body=1" for 10.0.2.2 at 2015-03-06 17:04:12 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/music_player-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 10.0.2.2 at 2015-03-06 17:04:12 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/music_player-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 10.0.2.2 at 2015-03-06 17:04:12 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 10.0.2.2 at 2015-03-06 17:04:12 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/audiojs-39d2552611734271844d6d5914b58a54.js?body=1" for 10.0.2.2 at 2015-03-06 17:04:12 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application-2a2ae5e075761643246e7edaf8d3599b.js?body=1" for 10.0.2.2 at 2015-03-06 17:04:12 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/asd-e2243a40b61e929d8db91647824ea331.jpg" for 10.0.2.2 at 2015-03-06 17:04:12 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 10.0.2.2 at 2015-03-06 17:05:18 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MusicPlayerController#test as HTML
+  Rendered music_player/test.html.erb within layouts/application (11.2ms)
+Completed 200 OK in 454ms (Views: 453.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 10.0.2.2 at 2015-03-06 17:05:19 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 10.0.2.2 at 2015-03-06 17:05:19 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css?body=1" for 10.0.2.2 at 2015-03-06 17:05:19 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/music_player-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 10.0.2.2 at 2015-03-06 17:05:19 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 10.0.2.2 at 2015-03-06 17:05:19 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/music_player-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 10.0.2.2 at 2015-03-06 17:05:19 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/audiojs-39d2552611734271844d6d5914b58a54.js?body=1" for 10.0.2.2 at 2015-03-06 17:05:19 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application-2a2ae5e075761643246e7edaf8d3599b.js?body=1" for 10.0.2.2 at 2015-03-06 17:05:19 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/asd-e2243a40b61e929d8db91647824ea331.jpg" for 10.0.2.2 at 2015-03-06 17:05:19 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/%3Caudio" for 10.0.2.2 at 2015-03-06 17:05:19 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [GET] "/%3Caudio"):
+  actionpack (4.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.1.1) lib/web_console/middleware.rb:29:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.0) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  rack (1.6.0) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0) lib/rack/handler/webrick.rb:89:in `service'
+  /home/vagrant/.rvm/rubies/ruby-2.0.0-p598/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/vagrant/.rvm/rubies/ruby-2.0.0-p598/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/vagrant/.rvm/rubies/ruby-2.0.0-p598/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/vagrant/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.4ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.6ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (28.3ms)
+
+
+Started GET "/" for 10.0.2.2 at 2015-03-06 17:05:31 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MusicPlayerController#test as HTML
+  Rendered music_player/test.html.erb within layouts/application (12.3ms)
+Completed 200 OK in 479ms (Views: 477.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/music_player-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 10.0.2.2 at 2015-03-06 17:05:32 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 10.0.2.2 at 2015-03-06 17:05:32 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css?body=1" for 10.0.2.2 at 2015-03-06 17:05:32 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 10.0.2.2 at 2015-03-06 17:05:32 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/music_player-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 10.0.2.2 at 2015-03-06 17:05:32 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 10.0.2.2 at 2015-03-06 17:05:32 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/audiojs-39d2552611734271844d6d5914b58a54.js?body=1" for 10.0.2.2 at 2015-03-06 17:05:32 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application-2a2ae5e075761643246e7edaf8d3599b.js?body=1" for 10.0.2.2 at 2015-03-06 17:05:32 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/asd-e2243a40b61e929d8db91647824ea331.jpg" for 10.0.2.2 at 2015-03-06 17:05:32 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/going%20out-2f5a7881ce3da722f94cd95095717c96.mp3" for 10.0.2.2 at 2015-03-06 17:05:33 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 10.0.2.2 at 2015-03-06 17:08:36 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MusicPlayerController#test as HTML
+  Rendered music_player/test.html.erb within layouts/application (14.6ms)
+Completed 200 OK in 495ms (Views: 494.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css?body=1" for 10.0.2.2 at 2015-03-06 17:08:37 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 10.0.2.2 at 2015-03-06 17:08:37 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 10.0.2.2 at 2015-03-06 17:08:37 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 10.0.2.2 at 2015-03-06 17:08:37 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/music_player-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 10.0.2.2 at 2015-03-06 17:08:37 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/music_player-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 10.0.2.2 at 2015-03-06 17:08:37 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/audiojs-39d2552611734271844d6d5914b58a54.js?body=1" for 10.0.2.2 at 2015-03-06 17:08:37 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application-2a2ae5e075761643246e7edaf8d3599b.js?body=1" for 10.0.2.2 at 2015-03-06 17:08:37 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/asd-e2243a40b61e929d8db91647824ea331.jpg" for 10.0.2.2 at 2015-03-06 17:08:37 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/going%20out-2f5a7881ce3da722f94cd95095717c96.mp3" for 10.0.2.2 at 2015-03-06 17:08:37 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 10.0.2.2 at 2015-03-06 17:11:38 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MusicPlayerController#test as HTML
+  Rendered music_player/test.html.erb within layouts/application (11.5ms)
+Completed 200 OK in 467ms (Views: 465.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 10.0.2.2 at 2015-03-06 17:11:39 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 10.0.2.2 at 2015-03-06 17:11:39 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/music_player-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 10.0.2.2 at 2015-03-06 17:11:39 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css?body=1" for 10.0.2.2 at 2015-03-06 17:11:39 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 10.0.2.2 at 2015-03-06 17:11:39 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/music_player-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 10.0.2.2 at 2015-03-06 17:11:39 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/audiojs-39d2552611734271844d6d5914b58a54.js?body=1" for 10.0.2.2 at 2015-03-06 17:11:39 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application-2a2ae5e075761643246e7edaf8d3599b.js?body=1" for 10.0.2.2 at 2015-03-06 17:11:39 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/asd-e2243a40b61e929d8db91647824ea331.jpg" for 10.0.2.2 at 2015-03-06 17:11:39 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/%3Caudio" for 10.0.2.2 at 2015-03-06 17:11:39 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [GET] "/%3Caudio"):
+  actionpack (4.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.1.1) lib/web_console/middleware.rb:29:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.0) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  rack (1.6.0) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0) lib/rack/handler/webrick.rb:89:in `service'
+  /home/vagrant/.rvm/rubies/ruby-2.0.0-p598/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/vagrant/.rvm/rubies/ruby-2.0.0-p598/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/vagrant/.rvm/rubies/ruby-2.0.0-p598/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/vagrant/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.9ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.6ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.8ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (42.6ms)
+
+
+Started GET "/" for 10.0.2.2 at 2015-03-06 17:11:52 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MusicPlayerController#test as HTML
+  Rendered music_player/test.html.erb within layouts/application (14.7ms)
+Completed 200 OK in 483ms (Views: 482.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 10.0.2.2 at 2015-03-06 17:11:52 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 10.0.2.2 at 2015-03-06 17:11:52 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/music_player-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 10.0.2.2 at 2015-03-06 17:11:53 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css?body=1" for 10.0.2.2 at 2015-03-06 17:11:53 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 10.0.2.2 at 2015-03-06 17:11:53 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/music_player-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 10.0.2.2 at 2015-03-06 17:11:53 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/audiojs-39d2552611734271844d6d5914b58a54.js?body=1" for 10.0.2.2 at 2015-03-06 17:11:53 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application-2a2ae5e075761643246e7edaf8d3599b.js?body=1" for 10.0.2.2 at 2015-03-06 17:11:53 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/asd-e2243a40b61e929d8db91647824ea331.jpg" for 10.0.2.2 at 2015-03-06 17:11:53 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/%3Caudio%20src=%22/assets/going%20out-2f5a7881ce3da722f94cd95095717c96.mp3%22%3E%3C/audio%3E" for 10.0.2.2 at 2015-03-06 17:11:53 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [GET] "/%3Caudio%20src=%22/assets/going%20out-2f5a7881ce3da722f94cd95095717c96.mp3%22%3E%3C/audio%3E"):
+  actionpack (4.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.1.1) lib/web_console/middleware.rb:29:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.0) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  rack (1.6.0) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0) lib/rack/handler/webrick.rb:89:in `service'
+  /home/vagrant/.rvm/rubies/ruby-2.0.0-p598/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/vagrant/.rvm/rubies/ruby-2.0.0-p598/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/vagrant/.rvm/rubies/ruby-2.0.0-p598/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/vagrant/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.8ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.4ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (26.9ms)
+
+
+Started GET "/" for 10.0.2.2 at 2015-03-06 17:13:41 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MusicPlayerController#test as HTML
+  Rendered music_player/test.html.erb within layouts/application (7.9ms)
+Completed 200 OK in 481ms (Views: 480.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 10.0.2.2 at 2015-03-06 17:13:41 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css?body=1" for 10.0.2.2 at 2015-03-06 17:13:42 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 10.0.2.2 at 2015-03-06 17:13:42 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 10.0.2.2 at 2015-03-06 17:13:42 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/music_player-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 10.0.2.2 at 2015-03-06 17:13:42 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/music_player-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 10.0.2.2 at 2015-03-06 17:13:42 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/audiojs-39d2552611734271844d6d5914b58a54.js?body=1" for 10.0.2.2 at 2015-03-06 17:13:42 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application-2a2ae5e075761643246e7edaf8d3599b.js?body=1" for 10.0.2.2 at 2015-03-06 17:13:42 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/asd-e2243a40b61e929d8db91647824ea331.jpg" for 10.0.2.2 at 2015-03-06 17:13:42 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36m (129.1ms)[0m  [1mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL) ENGINE=InnoDB[0m
+  [1m[35m (142.0ms)[0m  CREATE UNIQUE INDEX `unique_schema_migrations`  ON `schema_migrations` (`version`) 
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Migrating to CreateUsers (20150306222809)
+  [1m[35m (6.8ms)[0m  CREATE TABLE `users` (`id` int(11) auto_increment PRIMARY KEY, `username` varchar(255), `name` varchar(255), `password` varchar(255), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL) ENGINE=InnoDB
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO `schema_migrations` (`version`) VALUES ('20150306222809')
+  [1m[36m (17.5ms)[0m  [1mCOMMIT[0m
+Migrating to CreatePlaylists (20150306223139)
+  [1m[35m (124.6ms)[0m  CREATE TABLE `playlists` (`id` int(11) auto_increment PRIMARY KEY, `name` varchar(255), `user_id` int(11), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL) ENGINE=InnoDB
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `schema_migrations` (`version`) VALUES ('20150306223139')
+  [1m[36m (3.7ms)[0m  [1mCOMMIT[0m
+Migrating to CreateMusics (20150306223436)
+  [1m[35m (65.3ms)[0m  CREATE TABLE `musics` (`id` int(11) auto_increment PRIMARY KEY, `name` int(11), `path` varchar(255), `user_id` int(11), `playlist_id` int(11), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL) ENGINE=InnoDB
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO `schema_migrations` (`version`) VALUES ('20150306223436')
+  [1m[36m (2.4ms)[0m  [1mCOMMIT[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.2ms)[0m  SELECT `schema_migrations`.* FROM `schema_migrations`
+  [1m[36m (0.2ms)[0m  [1mSELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'musicPlayer'
+  AND fk.table_name = 'musics'
+[0m
+  [1m[35m (0.1ms)[0m  SHOW CREATE TABLE `musics`
+  [1m[36m (0.2ms)[0m  [1mSELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'musicPlayer'
+  AND fk.table_name = 'playlists'
+[0m
+  [1m[35m (0.1ms)[0m  SHOW CREATE TABLE `playlists`
+  [1m[36m (0.2ms)[0m  [1mSELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'musicPlayer'
+  AND fk.table_name = 'users'
+[0m
+  [1m[35m (0.1ms)[0m  SHOW CREATE TABLE `users`
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT `schema_migrations`.* FROM `schema_migrations`
+  [1m[36m (0.2ms)[0m  [1mSELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'musicPlayer'
+  AND fk.table_name = 'musics'
+[0m
+  [1m[35m (0.1ms)[0m  SHOW CREATE TABLE `musics`
+  [1m[36m (0.2ms)[0m  [1mSELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'musicPlayer'
+  AND fk.table_name = 'playlists'
+[0m
+  [1m[35m (0.1ms)[0m  SHOW CREATE TABLE `playlists`
+  [1m[36m (0.2ms)[0m  [1mSELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'musicPlayer'
+  AND fk.table_name = 'users'
+[0m
+  [1m[35m (0.1ms)[0m  SHOW CREATE TABLE `users`
+
+
+Started GET "/" for 10.0.2.2 at 2015-03-07 00:13:39 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by SessionController#register as HTML
+  Rendered session/register.html.erb within layouts/application (11.9ms)
+Completed 200 OK in 3971ms (Views: 3926.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/music_player-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 10.0.2.2 at 2015-03-07 00:13:44 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/session-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 10.0.2.2 at 2015-03-07 00:13:44 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css?body=1" for 10.0.2.2 at 2015-03-07 00:13:44 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/session-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 10.0.2.2 at 2015-03-07 00:13:45 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 10.0.2.2 at 2015-03-07 00:13:45 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 10.0.2.2 at 2015-03-07 00:13:45 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 10.0.2.2 at 2015-03-07 00:13:45 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/music_player-64e62ddc273c2f5847f30d698ca14b67.js?body=1" for 10.0.2.2 at 2015-03-07 00:13:46 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/audiojs-39d2552611734271844d6d5914b58a54.js?body=1" for 10.0.2.2 at 2015-03-07 00:13:46 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application-ab3268e680b538348229d1f375b822cd.js?body=1" for 10.0.2.2 at 2015-03-07 00:13:46 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started POST "/login" for 10.0.2.2 at 2015-03-07 00:14:56 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionController#login as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"UWD/0l+DnROoFwn52FIw34F+7zXTqQBGVkDMqh5BjM1ngPvyfuOQqfb6Z+nsU2MkKzf8hBZhLljcfvbToKkZCQ==", "username"=>"", "name"=>"", "pass"=>"", "cPass"=>""}
+  Rendered session/login.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 567ms (Views: 565.8ms | ActiveRecord: 0.0ms)

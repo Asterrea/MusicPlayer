@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: 1
+  path: MyString
+  user_id: 1
+  playlist_id: 1
+
+two:
+  name: 1
+  path: MyString
+  user_id: 1
+  playlist_id: 1

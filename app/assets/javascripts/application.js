@@ -15,3 +15,9 @@
 //= require turbolinks
 //= require_tree .
 //= require audiojs
+//= require music_player.js
+
+function asd(wow)
+{
+	console.log(wow);
+}
