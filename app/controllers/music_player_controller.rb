@@ -21,7 +21,7 @@ class MusicPlayerController < ApplicationController
     end
 
     def play
-    	@name = session[:name]
+   		@name = session[:name]
     	if !Playlist.inPlaylist(params[:playlist_name], session[:user_id])
     		redirect_to '/index'
     	end
@@ -29,11 +29,22 @@ class MusicPlayerController < ApplicationController
    		session[:playlist_id] = p.id;
    		session[:playlist_name] = p.name;
    		@playlist_name = p.name
-   		@songs = Music.get_all(session[:user_id], session[:playlist_name])
+   		@songs = Music.get_all(session[:user_id], session[:playlist_id])
+   		@mSize = @songs.size
+   		if @mSize > 0
+	   		@path = Music.get_path(session[:user_id], session[:playlist_id], session[:song])
+	   	end
+    end
+
+    def updated_play
+    	@name = session[:name]
+    	@playlist_name = session[:playlist_name]
+    	@songs = Music.get_all(session[:user_id], session[:playlist_id], session[:song])
+   		@mSize = @songs.size
     end
 
 # Partial code of upload was taken from http://stackoverflow.com/questions/11342338/how-to-upload-a-file-in-ruby-on-rails
-    def upload
+    def upload_music
     	music_name = params[:name]
     	name = params[:upload]
     	fname = name.original_filename
@@ -42,6 +53,6 @@ class MusicPlayerController < ApplicationController
     	File.open(path, "wb") do |f| f.write(name.read)
     	end
     	Music.create_music(music_name, path, session[:user_id], session[:playlist_id])
-    	redirect_to '/play'
+    	redirect_to 'upload_music'
     end
 end

@@ -13,6 +13,7 @@ class SessionController < ApplicationController
   	if user
   	  session[:user_id] = user.id
       session[:name] = user.name
+      session[:song] = 0
   	  redirect_to action: :start
     else
       redirect_to root_path
@@ -40,6 +41,7 @@ class SessionController < ApplicationController
     session[:name] = nil
     session[:playlist_id] = nil
     session[:playlist_name] = nil
+    session[:first] = nil
     redirect_to root_path
   end
 end

@@ -13530,3 +13530,2354 @@ Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0
   [1m[36m (0.3ms)[0m  [1mBEGIN[0m
   [1m[35mSQL (0.4ms)[0m  DELETE FROM `musics` WHERE `musics`.`id` = 2
   [1m[36m (30.1ms)[0m  [1mCOMMIT[0m
+
+
+Started GET "/" for 10.0.2.2 at 2015-03-08 14:13:18 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by SessionController#start as HTML
+  Rendered session/start.html.erb within layouts/application (11.5ms)
+Completed 200 OK in 924ms (Views: 889.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css?body=1" for 10.0.2.2 at 2015-03-08 14:13:20 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/session-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 10.0.2.2 at 2015-03-08 14:13:20 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 10.0.2.2 at 2015-03-08 14:13:20 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 10.0.2.2 at 2015-03-08 14:13:20 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 10.0.2.2 at 2015-03-08 14:13:20 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application-5101c80a68c0d92c4cef8ea8f46316ff.js?body=1" for 10.0.2.2 at 2015-03-08 14:13:20 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/session-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 10.0.2.2 at 2015-03-08 14:13:20 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started POST "/login" for 10.0.2.2 at 2015-03-08 14:13:28 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionController#login as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ULJWhwVp9fMeezfNbx9RRJR8aTtAtel0JtqOIZxhJ4BeIj91ZNLg8nPOWKJe4DDq54fLfk2Pn+gjcEuzEHgdNg==", "username"=>"darkmega12", "password"=>"[FILTERED]"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`username` = 'darkmega12'
+Redirected to http://localhost:3000/
+Completed 302 Found in 208ms (ActiveRecord: 1.0ms)
+
+
+Started GET "/" for 10.0.2.2 at 2015-03-08 14:13:29 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionController#start as HTML
+Redirected to http://localhost:3000/index
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for 10.0.2.2 at 2015-03-08 14:13:29 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MusicPlayerController#index as HTML
+  [1m[36mPlaylist Load (0.1ms)[0m  [1mSELECT `playlists`.* FROM `playlists` WHERE `playlists`.`user_id` = 4[0m
+  Rendered music_player/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 496ms (Views: 428.7ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css?body=1" for 10.0.2.2 at 2015-03-08 14:13:29 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 10.0.2.2 at 2015-03-08 14:13:30 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/session-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 10.0.2.2 at 2015-03-08 14:13:30 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 10.0.2.2 at 2015-03-08 14:13:30 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/session-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 10.0.2.2 at 2015-03-08 14:13:30 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 10.0.2.2 at 2015-03-08 14:13:30 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application-5101c80a68c0d92c4cef8ea8f46316ff.js?body=1" for 10.0.2.2 at 2015-03-08 14:13:30 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started POST "/get_playlist" for 10.0.2.2 at 2015-03-08 14:13:33 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MusicPlayerController#play as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"GCPLKMFwEWmPp6Ti4bRHqKGLlo/xH0ulUauLOtBd6egWs6LaoMsEaOISy43QSyYG0nA0yvwlPTlUAU6oXETTXg==", "playlist_name"=>"asd"}
+  [1m[35mPlaylist Load (0.1ms)[0m  SELECT `playlists`.* FROM `playlists` WHERE `playlists`.`name` = 'asd' AND `playlists`.`user_id` = 4
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT `playlists`.* FROM `playlists` WHERE `playlists`.`name` = 'asd' AND `playlists`.`user_id` = 4[0m  [["name", "asd"], ["user_id", 4]]
+  [1m[35mMusic Load (0.3ms)[0m  SELECT `musics`.* FROM `musics`
+  Rendered music_player/play.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 390ms (Views: 357.5ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 10.0.2.2 at 2015-03-08 14:13:33 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css?body=1" for 10.0.2.2 at 2015-03-08 14:13:34 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/session-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 10.0.2.2 at 2015-03-08 14:13:34 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 10.0.2.2 at 2015-03-08 14:13:34 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 10.0.2.2 at 2015-03-08 14:13:34 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/session-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 10.0.2.2 at 2015-03-08 14:13:34 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application-5101c80a68c0d92c4cef8ea8f46316ff.js?body=1" for 10.0.2.2 at 2015-03-08 14:13:34 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started POST "/upload_music" for 10.0.2.2 at 2015-03-08 14:14:21 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MusicPlayerController#upload as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"c/oHq+41sLpPHnSIdgRYnvPLDuwyc4BweLCu6JR1/r19am5Zj46luyKrG+dH+zkwgDCsqT9J9ux9Gmt6GGzECw==", "name"=>"going out", "upload"=>#<ActionDispatch::Http::UploadedFile:0xb71b03c @tempfile=#<Tempfile:/tmp/RackMultipart20150308-4819-1lvsmi.mp3>, @original_filename="01 Going Out.mp3", @content_type="audio/mp3", @headers="Content-Disposition: form-data; name=\"upload\"; filename=\"01 Going Out.mp3\"\r\nContent-Type: audio/mp3\r\n">}
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `musics` (`name`, `path`, `user_id`, `playlist_id`, `created_at`, `updated_at`) VALUES ('going out', 'public/uploads/01 Going Out.mp3', 4, 4, '2015-03-08 14:14:21.843236', '2015-03-08 14:14:21.843236')
+  [1m[36m (97.7ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/play
+Completed 302 Found in 285ms (ActiveRecord: 99.0ms)
+
+
+Started GET "/play" for 10.0.2.2 at 2015-03-08 14:14:21 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MusicPlayerController#play as HTML
+  [1m[35mPlaylist Load (0.1ms)[0m  SELECT `playlists`.* FROM `playlists` WHERE `playlists`.`user_id` = 4 AND `playlists`.`name` IS NULL
+Redirected to http://localhost:3000/index
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT `playlists`.* FROM `playlists` WHERE `playlists`.`user_id` = 4 AND `playlists`.`name` IS NULL[0m  [["user_id", 4]]
+Completed 500 Internal Server Error in 42ms
+
+NoMethodError (undefined method `id' for nil:NilClass):
+  app/models/playlist.rb:17:in `getPlaylist'
+  app/controllers/music_player_controller.rb:28:in `play'
+
+
+  Rendered /home/vagrant/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (8.4ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.0ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.8ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (37.4ms)
+
+
+Started GET "/play" for 10.0.2.2 at 2015-03-08 14:15:16 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MusicPlayerController#play as HTML
+  [1m[35mPlaylist Load (0.1ms)[0m  SELECT `playlists`.* FROM `playlists` WHERE `playlists`.`user_id` = 4 AND `playlists`.`name` IS NULL
+Redirected to http://localhost:3000/index
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT `playlists`.* FROM `playlists` WHERE `playlists`.`user_id` = 4 AND `playlists`.`name` IS NULL[0m  [["user_id", 4]]
+Completed 500 Internal Server Error in 35ms
+
+NoMethodError (undefined method `id' for nil:NilClass):
+  app/controllers/music_player_controller.rb:29:in `play'
+
+
+  Rendered /home/vagrant/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (10.4ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.2ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (38.0ms)
+
+
+Started GET "/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css?body=1" for 10.0.2.2 at 2015-03-08 14:19:17 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 10.0.2.2 at 2015-03-08 14:19:17 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/session-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 10.0.2.2 at 2015-03-08 14:19:17 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 10.0.2.2 at 2015-03-08 14:19:17 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/session-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 10.0.2.2 at 2015-03-08 14:19:17 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 10.0.2.2 at 2015-03-08 14:19:17 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application-5101c80a68c0d92c4cef8ea8f46316ff.js?body=1" for 10.0.2.2 at 2015-03-08 14:19:17 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/logout" for 10.0.2.2 at 2015-03-08 14:19:19 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionController#logout as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 10.0.2.2 at 2015-03-08 14:19:19 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionController#start as HTML
+  Rendered session/start.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 361ms (Views: 360.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 10.0.2.2 at 2015-03-08 14:19:20 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 10.0.2.2 at 2015-03-08 14:19:20 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/session-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 10.0.2.2 at 2015-03-08 14:19:20 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css?body=1" for 10.0.2.2 at 2015-03-08 14:19:20 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 10.0.2.2 at 2015-03-08 14:19:20 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/session-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 10.0.2.2 at 2015-03-08 14:19:20 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application-5101c80a68c0d92c4cef8ea8f46316ff.js?body=1" for 10.0.2.2 at 2015-03-08 14:19:20 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started POST "/login" for 10.0.2.2 at 2015-03-08 14:19:27 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionController#login as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"S0WrD9sjk2+/r0RoOGvB6DnnlSt0KjsnUUHTXg5mDr5F1cL9upiGbtIaKwcJlKBGShw3bnkQTbtU6xbMgn80CA==", "username"=>"darkmega12", "password"=>"[FILTERED]"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`username` = 'darkmega12'
+Redirected to http://localhost:3000/
+Completed 302 Found in 126ms (ActiveRecord: 1.1ms)
+
+
+Started GET "/" for 10.0.2.2 at 2015-03-08 14:19:28 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionController#start as HTML
+Redirected to http://localhost:3000/index
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for 10.0.2.2 at 2015-03-08 14:19:28 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MusicPlayerController#index as HTML
+  [1m[36mPlaylist Load (0.1ms)[0m  [1mSELECT `playlists`.* FROM `playlists` WHERE `playlists`.`user_id` = 4[0m
+  Rendered music_player/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 438ms (Views: 397.7ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 10.0.2.2 at 2015-03-08 14:19:28 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 10.0.2.2 at 2015-03-08 14:19:28 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css?body=1" for 10.0.2.2 at 2015-03-08 14:19:29 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/session-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 10.0.2.2 at 2015-03-08 14:19:29 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 10.0.2.2 at 2015-03-08 14:19:29 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/session-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 10.0.2.2 at 2015-03-08 14:19:29 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application-5101c80a68c0d92c4cef8ea8f46316ff.js?body=1" for 10.0.2.2 at 2015-03-08 14:19:29 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started POST "/get_playlist" for 10.0.2.2 at 2015-03-08 14:19:31 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MusicPlayerController#play as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"bS4TEKfmp3Nxk0kQMh5jPCbuGmyS06rKnGHD3eeZdX1jvnrixl2ychwmJn8D4QKSVRW4KZ/p3FaZywZPa4BPyw==", "playlist_name"=>"asd"}
+  [1m[35mPlaylist Load (0.1ms)[0m  SELECT `playlists`.* FROM `playlists` WHERE `playlists`.`user_id` = 4 AND `playlists`.`name` IS NULL
+Completed 500 Internal Server Error in 3ms
+
+NoMethodError (undefined method `name' for nil:NilClass):
+  app/controllers/music_player_controller.rb:27:in `play'
+
+
+  Rendered /home/vagrant/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.4ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.5ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (27.6ms)
+
+
+Started GET "/logout" for 10.0.2.2 at 2015-03-08 14:21:22 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionController#logout as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 10.0.2.2 at 2015-03-08 14:21:22 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionController#start as HTML
+  Rendered session/start.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 370ms (Views: 369.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 10.0.2.2 at 2015-03-08 14:21:23 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 10.0.2.2 at 2015-03-08 14:21:23 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 10.0.2.2 at 2015-03-08 14:21:23 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/session-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 10.0.2.2 at 2015-03-08 14:21:23 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css?body=1" for 10.0.2.2 at 2015-03-08 14:21:23 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/session-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 10.0.2.2 at 2015-03-08 14:21:23 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application-5101c80a68c0d92c4cef8ea8f46316ff.js?body=1" for 10.0.2.2 at 2015-03-08 14:21:23 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started POST "/login" for 10.0.2.2 at 2015-03-08 14:21:35 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionController#login as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"2UKZXLXnDrQFiNFtvFVBWtPdCgQdfHoiWgJk9jtCX27X0vCu1FwbtWg9vgKNqiD0oCaoQRBGDL5fqKFkt1tl2A==", "username"=>"darkmega12", "password"=>"[FILTERED]"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`username` = 'darkmega12'[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 127ms (ActiveRecord: 0.9ms)
+
+
+Started GET "/" for 10.0.2.2 at 2015-03-08 14:21:36 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionController#start as HTML
+Redirected to http://localhost:3000/index
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for 10.0.2.2 at 2015-03-08 14:21:36 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MusicPlayerController#index as HTML
+  [1m[35mPlaylist Load (0.1ms)[0m  SELECT `playlists`.* FROM `playlists` WHERE `playlists`.`user_id` = 4
+  Rendered music_player/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 398ms (Views: 361.6ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/session-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 10.0.2.2 at 2015-03-08 14:21:36 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/session-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 10.0.2.2 at 2015-03-08 14:21:36 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 10.0.2.2 at 2015-03-08 14:21:36 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 10.0.2.2 at 2015-03-08 14:21:37 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 10.0.2.2 at 2015-03-08 14:21:37 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css?body=1" for 10.0.2.2 at 2015-03-08 14:21:37 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application-5101c80a68c0d92c4cef8ea8f46316ff.js?body=1" for 10.0.2.2 at 2015-03-08 14:21:37 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started POST "/get_playlist" for 10.0.2.2 at 2015-03-08 14:21:39 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MusicPlayerController#play as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Y5scTa/T9GTaeRJkQeBxjLR1zOga7Do0k3jl2hmyehNtC3W/zmjhZbfMfQtwHxAix45urRfWTKiW0iBIlatApQ==", "playlist_name"=>"asd"}
+  Rendered music_player/play.html.erb within layouts/application (37.8ms)
+Completed 500 Internal Server Error in 143ms
+
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+    13: 
+    14: Songs in Playlist:
+    15: <table>
+    16: 	<% for song in @songs %>
+    17: 	<tr> <td> <% song.name %> </td> </tr>
+    18: 	<% end %>
+    19: </table>
+  app/views/music_player/play.html.erb:16:in `_app_views_music_player_play_html_erb___369068094_98550840'
+
+
+  Rendered /home/vagrant/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (42.6ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.7ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (66.2ms)
+
+
+Started POST "/get_playlist" for 10.0.2.2 at 2015-03-08 14:22:35 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MusicPlayerController#play as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Y5scTa/T9GTaeRJkQeBxjLR1zOga7Do0k3jl2hmyehNtC3W/zmjhZbfMfQtwHxAix45urRfWTKiW0iBIlatApQ==", "playlist_name"=>"asd"}
+  Rendered music_player/play.html.erb within layouts/application (37.0ms)
+Completed 500 Internal Server Error in 137ms
+
+ActionView::Template::Error (undefined method `size' for nil:NilClass):
+    13: 
+    14: Songs in Playlist:
+    15: <table>
+    16: 	<% if @songs.size > 0 %>
+    17: 		<% for song in @songs %>
+    18: 		<tr> <td> <% song.name %> </td> </tr>
+    19: 		<% end %>
+  app/views/music_player/play.html.erb:16:in `_app_views_music_player_play_html_erb___369068094_100128630'
+
+
+  Rendered /home/vagrant/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (9.8ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.4ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (29.8ms)
+
+
+Started POST "/get_playlist" for 10.0.2.2 at 2015-03-08 14:24:04 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MusicPlayerController#play as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Y5scTa/T9GTaeRJkQeBxjLR1zOga7Do0k3jl2hmyehNtC3W/zmjhZbfMfQtwHxAix45urRfWTKiW0iBIlatApQ==", "playlist_name"=>"asd"}
+  Rendered music_player/play.html.erb within layouts/application (32.1ms)
+Completed 500 Internal Server Error in 151ms
+
+ActionView::Template::Error (undefined method `>' for nil:NilClass):
+    13: 
+    14: Songs in Playlist:
+    15: <table>
+    16: 	<% if @mSize > 0 %>
+    17: 		<% for song in @songs %>
+    18: 		<tr> <td> <% song.name %> </td> </tr>
+    19: 		<% end %>
+  app/views/music_player/play.html.erb:16:in `_app_views_music_player_play_html_erb___369068094_97615040'
+
+
+  Rendered /home/vagrant/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (9.5ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (36.2ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (63.2ms)
+
+
+Started POST "/get_playlist" for 10.0.2.2 at 2015-03-08 14:24:57 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MusicPlayerController#play as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Y5scTa/T9GTaeRJkQeBxjLR1zOga7Do0k3jl2hmyehNtC3W/zmjhZbfMfQtwHxAix45urRfWTKiW0iBIlatApQ==", "playlist_name"=>"asd"}
+  Rendered music_player/play.html.erb within layouts/application (33.0ms)
+Completed 500 Internal Server Error in 151ms
+
+ActionView::Template::Error (undefined method `>' for nil:NilClass):
+    13: 
+    14: Songs in Playlist:
+    15: <table>
+    16: 	<% if @mSize > 0 %>
+    17: 		<% for song in @songs %>
+    18: 		<tr> <td> <% song.name %> </td> </tr>
+    19: 		<% end %>
+  app/views/music_player/play.html.erb:16:in `_app_views_music_player_play_html_erb___369068094_97615040'
+
+
+  Rendered /home/vagrant/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (8.9ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.3ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (29.6ms)
+
+
+Started POST "/get_playlist" for 10.0.2.2 at 2015-03-08 14:25:45 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MusicPlayerController#play as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Y5scTa/T9GTaeRJkQeBxjLR1zOga7Do0k3jl2hmyehNtC3W/zmjhZbfMfQtwHxAix45urRfWTKiW0iBIlatApQ==", "playlist_name"=>"asd"}
+  Rendered music_player/play.html.erb within layouts/application (35.3ms)
+Completed 500 Internal Server Error in 138ms
+
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+    14: Songs in Playlist:
+    15: <table>
+    16: 	<% if @mSize != 0 %>
+    17: 		<% for song in @songs %>
+    18: 		<tr> <td> <% song.name %> </td> </tr>
+    19: 		<% end %>
+    20: 	<% end %>
+  app/views/music_player/play.html.erb:17:in `_app_views_music_player_play_html_erb___369068094_98845010'
+
+
+  Rendered /home/vagrant/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (10.8ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.6ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (31.3ms)
+
+
+Started POST "/get_playlist" for 10.0.2.2 at 2015-03-08 14:26:09 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MusicPlayerController#play as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Y5scTa/T9GTaeRJkQeBxjLR1zOga7Do0k3jl2hmyehNtC3W/zmjhZbfMfQtwHxAix45urRfWTKiW0iBIlatApQ==", "playlist_name"=>"asd"}
+  Rendered music_player/play.html.erb within layouts/application (31.8ms)
+Completed 500 Internal Server Error in 141ms
+
+ActionView::Template::Error (undefined method `>' for nil:NilClass):
+    13: 
+    14: Songs in Playlist:
+    15: <table>
+    16: 	<% if @mSize > 0 %>
+    17: 		<% for song in @songs %>
+    18: 		<tr> <td> <% song.name %> </td> </tr>
+    19: 		<% end %>
+  app/views/music_player/play.html.erb:16:in `_app_views_music_player_play_html_erb___369068094_100284350'
+
+
+  Rendered /home/vagrant/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (10.5ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.0ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.9ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (31.6ms)
+
+
+Started POST "/get_playlist" for 10.0.2.2 at 2015-03-08 14:27:40 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MusicPlayerController#play as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Y5scTa/T9GTaeRJkQeBxjLR1zOga7Do0k3jl2hmyehNtC3W/zmjhZbfMfQtwHxAix45urRfWTKiW0iBIlatApQ==", "playlist_name"=>"asd"}
+  Rendered music_player/play.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 384ms (Views: 383.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 10.0.2.2 at 2015-03-08 14:27:41 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css?body=1" for 10.0.2.2 at 2015-03-08 14:27:41 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/session-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 10.0.2.2 at 2015-03-08 14:27:41 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 10.0.2.2 at 2015-03-08 14:27:42 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 10.0.2.2 at 2015-03-08 14:27:42 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/session-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 10.0.2.2 at 2015-03-08 14:27:42 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application-5101c80a68c0d92c4cef8ea8f46316ff.js?body=1" for 10.0.2.2 at 2015-03-08 14:27:42 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/logout" for 10.0.2.2 at 2015-03-08 14:27:52 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionController#logout as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 10.0.2.2 at 2015-03-08 14:27:52 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionController#start as HTML
+  Rendered session/start.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 371ms (Views: 369.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css?body=1" for 10.0.2.2 at 2015-03-08 14:27:52 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 10.0.2.2 at 2015-03-08 14:27:52 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 10.0.2.2 at 2015-03-08 14:27:52 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 10.0.2.2 at 2015-03-08 14:27:52 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/session-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 10.0.2.2 at 2015-03-08 14:27:53 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/session-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 10.0.2.2 at 2015-03-08 14:27:53 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application-5101c80a68c0d92c4cef8ea8f46316ff.js?body=1" for 10.0.2.2 at 2015-03-08 14:27:53 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started POST "/login" for 10.0.2.2 at 2015-03-08 14:28:12 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionController#login as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"s4q/OmjXc6biJopHSVHfipu4WabmEvaLUxizjqS1tBi9GtbICWxmp4+T5Sh4rr4k6EP74+sogBdWsnYcKKyOrg==", "username"=>"darkmega12", "password"=>"[FILTERED]"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`username` = 'darkmega12'[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 139ms (ActiveRecord: 1.1ms)
+
+
+Started GET "/" for 10.0.2.2 at 2015-03-08 14:28:12 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionController#start as HTML
+Redirected to http://localhost:3000/index
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for 10.0.2.2 at 2015-03-08 14:28:12 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+SyntaxError (/projects/mini2/MusicPlayer/app/controllers/music_player_controller.rb:49: syntax error, unexpected keyword_end, expecting end-of-input):
+  app/controllers/music_player_controller.rb:49: syntax error, unexpected keyword_end, expecting end-of-input
+
+
+  Rendered /home/vagrant/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.0ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.2ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (25.8ms)
+
+
+Started GET "/index" for 10.0.2.2 at 2015-03-08 14:28:26 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MusicPlayerController#index as HTML
+  [1m[35mPlaylist Load (0.1ms)[0m  SELECT `playlists`.* FROM `playlists` WHERE `playlists`.`user_id` = 4
+  Rendered music_player/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 411ms (Views: 374.9ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/session-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 10.0.2.2 at 2015-03-08 14:28:26 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css?body=1" for 10.0.2.2 at 2015-03-08 14:28:26 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 10.0.2.2 at 2015-03-08 14:28:27 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 10.0.2.2 at 2015-03-08 14:28:27 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 10.0.2.2 at 2015-03-08 14:28:27 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/session-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 10.0.2.2 at 2015-03-08 14:28:27 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application-5101c80a68c0d92c4cef8ea8f46316ff.js?body=1" for 10.0.2.2 at 2015-03-08 14:28:27 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started POST "/get_playlist" for 10.0.2.2 at 2015-03-08 14:28:29 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MusicPlayerController#play as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"4Hm5kEI6Igm9r59NDM8eTpysFM1Qgj8d+iQpBPI92+nu6dBiI4E3CNAa8CI9MH/g71e2iF24SYH/juyWfiThXw==", "playlist_name"=>"asd"}
+  [1m[36mPlaylist Load (0.2ms)[0m  [1mSELECT `playlists`.* FROM `playlists` WHERE `playlists`.`name` = 'asd' AND `playlists`.`user_id` = 4[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT `playlists`.* FROM `playlists` WHERE `playlists`.`name` = 'asd' AND `playlists`.`user_id` = 4  [["name", "asd"], ["user_id", 4]]
+  [1m[36mMusic Load (0.6ms)[0m  [1mSELECT `musics`.* FROM `musics`[0m
+  Rendered music_player/play.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 394ms (Views: 346.4ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 10.0.2.2 at 2015-03-08 14:28:30 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 10.0.2.2 at 2015-03-08 14:28:30 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/session-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 10.0.2.2 at 2015-03-08 14:28:30 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 10.0.2.2 at 2015-03-08 14:28:30 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css?body=1" for 10.0.2.2 at 2015-03-08 14:28:30 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/session-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 10.0.2.2 at 2015-03-08 14:28:30 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application-5101c80a68c0d92c4cef8ea8f46316ff.js?body=1" for 10.0.2.2 at 2015-03-08 14:28:30 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started POST "/get_playlist" for 10.0.2.2 at 2015-03-08 14:29:10 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MusicPlayerController#play as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"4Hm5kEI6Igm9r59NDM8eTpysFM1Qgj8d+iQpBPI92+nu6dBiI4E3CNAa8CI9MH/g71e2iF24SYH/juyWfiThXw==", "playlist_name"=>"asd"}
+  [1m[35mPlaylist Load (0.1ms)[0m  SELECT `playlists`.* FROM `playlists` WHERE `playlists`.`name` = 'asd' AND `playlists`.`user_id` = 4
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT `playlists`.* FROM `playlists` WHERE `playlists`.`name` = 'asd' AND `playlists`.`user_id` = 4[0m  [["name", "asd"], ["user_id", 4]]
+  [1m[35mMusic Load (0.1ms)[0m  SELECT `musics`.* FROM `musics`
+  Rendered music_player/play.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 412ms (Views: 406.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css?body=1" for 10.0.2.2 at 2015-03-08 14:29:10 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/session-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 10.0.2.2 at 2015-03-08 14:29:10 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 10.0.2.2 at 2015-03-08 14:29:10 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 10.0.2.2 at 2015-03-08 14:29:10 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 10.0.2.2 at 2015-03-08 14:29:11 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application-5101c80a68c0d92c4cef8ea8f46316ff.js?body=1" for 10.0.2.2 at 2015-03-08 14:29:11 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/session-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 10.0.2.2 at 2015-03-08 14:29:11 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started POST "/get_playlist" for 10.0.2.2 at 2015-03-08 14:31:48 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MusicPlayerController#play as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"4Hm5kEI6Igm9r59NDM8eTpysFM1Qgj8d+iQpBPI92+nu6dBiI4E3CNAa8CI9MH/g71e2iF24SYH/juyWfiThXw==", "playlist_name"=>"asd"}
+  [1m[36mPlaylist Load (0.2ms)[0m  [1mSELECT `playlists`.* FROM `playlists` WHERE `playlists`.`name` = 'asd' AND `playlists`.`user_id` = 4[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT `playlists`.* FROM `playlists` WHERE `playlists`.`name` = 'asd' AND `playlists`.`user_id` = 4  [["name", "asd"], ["user_id", 4]]
+  [1m[36mMusic Load (0.1ms)[0m  [1mSELECT `musics`.* FROM `musics`[0m
+  Rendered music_player/play.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 430ms (Views: 358.9ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css?body=1" for 10.0.2.2 at 2015-03-08 14:31:49 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 10.0.2.2 at 2015-03-08 14:31:49 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 10.0.2.2 at 2015-03-08 14:31:49 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/session-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 10.0.2.2 at 2015-03-08 14:31:49 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 10.0.2.2 at 2015-03-08 14:31:49 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/session-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 10.0.2.2 at 2015-03-08 14:31:49 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application-5101c80a68c0d92c4cef8ea8f46316ff.js?body=1" for 10.0.2.2 at 2015-03-08 14:31:49 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started POST "/upload_music" for 10.0.2.2 at 2015-03-08 14:31:57 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MusicPlayerController#upload as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"98MwSavrZ10fRFazg7JPFqwHR9sHioE0oy1QyRf/kJP5U1m7ylByXHLxOdyyTS643/zlngqw96imh5Vbm+aqJQ==", "name"=>"I do", "upload"=>#<ActionDispatch::Http::UploadedFile:0xafbdde4 @tempfile=#<Tempfile:/tmp/RackMultipart20150308-4819-1sotjol.mp3>, @original_filename="06 I Do.mp3", @content_type="audio/mp3", @headers="Content-Disposition: form-data; name=\"upload\"; filename=\"06 I Do.mp3\"\r\nContent-Type: audio/mp3\r\n">}
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO `musics` (`name`, `path`, `user_id`, `playlist_id`, `created_at`, `updated_at`) VALUES ('I do', 'public/uploads/06 I Do.mp3', 4, 4, '2015-03-08 14:31:57.522370', '2015-03-08 14:31:57.522370')[0m
+  [1m[35m (87.6ms)[0m  COMMIT
+Redirected to http://localhost:3000updated_play
+Completed 302 Found in 265ms (ActiveRecord: 88.2ms)
+
+
+Started POST "/upload_music" for 10.0.2.2 at 2015-03-08 14:32:00 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MusicPlayerController#upload as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"98MwSavrZ10fRFazg7JPFqwHR9sHioE0oy1QyRf/kJP5U1m7ylByXHLxOdyyTS643/zlngqw96imh5Vbm+aqJQ==", "name"=>"I do", "upload"=>#<ActionDispatch::Http::UploadedFile:0xb0e2aa8 @tempfile=#<Tempfile:/tmp/RackMultipart20150308-4819-ip2328.mp3>, @original_filename="06 I Do.mp3", @content_type="audio/mp3", @headers="Content-Disposition: form-data; name=\"upload\"; filename=\"06 I Do.mp3\"\r\nContent-Type: audio/mp3\r\n">}
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO `musics` (`name`, `path`, `user_id`, `playlist_id`, `created_at`, `updated_at`) VALUES ('I do', 'public/uploads/06 I Do.mp3', 4, 4, '2015-03-08 14:32:00.503629', '2015-03-08 14:32:00.503629')
+  [1m[36m (44.1ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000updated_play
+Completed 302 Found in 371ms (ActiveRecord: 44.6ms)
+
+
+Started POST "/upload_music" for 10.0.2.2 at 2015-03-08 14:32:00 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MusicPlayerController#upload as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"98MwSavrZ10fRFazg7JPFqwHR9sHioE0oy1QyRf/kJP5U1m7ylByXHLxOdyyTS643/zlngqw96imh5Vbm+aqJQ==", "name"=>"I do", "upload"=>#<ActionDispatch::Http::UploadedFile:0xaf9c9b4 @tempfile=#<Tempfile:/tmp/RackMultipart20150308-4819-axijeu.mp3>, @original_filename="06 I Do.mp3", @content_type="audio/mp3", @headers="Content-Disposition: form-data; name=\"upload\"; filename=\"06 I Do.mp3\"\r\nContent-Type: audio/mp3\r\n">}
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `musics` (`name`, `path`, `user_id`, `playlist_id`, `created_at`, `updated_at`) VALUES ('I do', 'public/uploads/06 I Do.mp3', 4, 4, '2015-03-08 14:32:00.895689', '2015-03-08 14:32:00.895689')[0m
+  [1m[35m (3.2ms)[0m  COMMIT
+Redirected to http://localhost:3000updated_play
+Completed 302 Found in 108ms (ActiveRecord: 3.7ms)
+
+
+Started POST "/upload_music" for 10.0.2.2 at 2015-03-08 14:32:01 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MusicPlayerController#upload as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"98MwSavrZ10fRFazg7JPFqwHR9sHioE0oy1QyRf/kJP5U1m7ylByXHLxOdyyTS643/zlngqw96imh5Vbm+aqJQ==", "name"=>"I do", "upload"=>#<ActionDispatch::Http::UploadedFile:0xaec4de8 @tempfile=#<Tempfile:/tmp/RackMultipart20150308-4819-4mm29w.mp3>, @original_filename="06 I Do.mp3", @content_type="audio/mp3", @headers="Content-Disposition: form-data; name=\"upload\"; filename=\"06 I Do.mp3\"\r\nContent-Type: audio/mp3\r\n">}
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO `musics` (`name`, `path`, `user_id`, `playlist_id`, `created_at`, `updated_at`) VALUES ('I do', 'public/uploads/06 I Do.mp3', 4, 4, '2015-03-08 14:32:01.273386', '2015-03-08 14:32:01.273386')
+  [1m[36m (35.0ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000updated_play
+Completed 302 Found in 111ms (ActiveRecord: 35.5ms)
+
+
+Started POST "/upload_music" for 10.0.2.2 at 2015-03-08 14:32:01 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MusicPlayerController#upload as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"98MwSavrZ10fRFazg7JPFqwHR9sHioE0oy1QyRf/kJP5U1m7ylByXHLxOdyyTS643/zlngqw96imh5Vbm+aqJQ==", "name"=>"I do", "upload"=>#<ActionDispatch::Http::UploadedFile:0xa566db4 @tempfile=#<Tempfile:/tmp/RackMultipart20150308-4819-3zy7sg.mp3>, @original_filename="06 I Do.mp3", @content_type="audio/mp3", @headers="Content-Disposition: form-data; name=\"upload\"; filename=\"06 I Do.mp3\"\r\nContent-Type: audio/mp3\r\n">}
+  [1m[35m (0.0ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO `musics` (`name`, `path`, `user_id`, `playlist_id`, `created_at`, `updated_at`) VALUES ('I do', 'public/uploads/06 I Do.mp3', 4, 4, '2015-03-08 14:32:02.019519', '2015-03-08 14:32:02.019519')[0m
+  [1m[35m (30.2ms)[0m  COMMIT
+Redirected to http://localhost:3000updated_play
+Completed 302 Found in 143ms (ActiveRecord: 30.6ms)
+
+
+Started GET "/assets/session-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 10.0.2.2 at 2015-03-08 14:33:09 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css?body=1" for 10.0.2.2 at 2015-03-08 14:33:09 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 10.0.2.2 at 2015-03-08 14:33:09 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/session-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 10.0.2.2 at 2015-03-08 14:33:09 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 10.0.2.2 at 2015-03-08 14:33:09 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 10.0.2.2 at 2015-03-08 14:33:09 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application-5101c80a68c0d92c4cef8ea8f46316ff.js?body=1" for 10.0.2.2 at 2015-03-08 14:33:09 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/get_playlist" for 10.0.2.2 at 2015-03-08 14:33:15 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [GET] "/get_playlist"):
+  actionpack (4.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.1.1) lib/web_console/middleware.rb:29:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.0) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  rack (1.6.0) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0) lib/rack/handler/webrick.rb:89:in `service'
+  /home/vagrant/.rvm/rubies/ruby-2.0.0-p598/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/vagrant/.rvm/rubies/ruby-2.0.0-p598/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/vagrant/.rvm/rubies/ruby-2.0.0-p598/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/vagrant/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.3ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (41.3ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.3ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (81.3ms)
+
+
+Started POST "/get_playlist" for 10.0.2.2 at 2015-03-08 14:33:20 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MusicPlayerController#play as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"4Hm5kEI6Igm9r59NDM8eTpysFM1Qgj8d+iQpBPI92+nu6dBiI4E3CNAa8CI9MH/g71e2iF24SYH/juyWfiThXw==", "playlist_name"=>"asd"}
+  [1m[36mPlaylist Load (0.1ms)[0m  [1mSELECT `playlists`.* FROM `playlists` WHERE `playlists`.`name` = 'asd' AND `playlists`.`user_id` = 4[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT `playlists`.* FROM `playlists` WHERE `playlists`.`name` = 'asd' AND `playlists`.`user_id` = 4  [["name", "asd"], ["user_id", 4]]
+  [1m[36mMusic Load (0.4ms)[0m  [1mSELECT `musics`.* FROM `musics`[0m
+  Rendered music_player/play.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 369ms (Views: 363.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css?body=1" for 10.0.2.2 at 2015-03-08 14:33:20 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 10.0.2.2 at 2015-03-08 14:33:20 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/session-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 10.0.2.2 at 2015-03-08 14:33:20 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 10.0.2.2 at 2015-03-08 14:33:20 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 10.0.2.2 at 2015-03-08 14:33:20 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/session-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 10.0.2.2 at 2015-03-08 14:33:20 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application-5101c80a68c0d92c4cef8ea8f46316ff.js?body=1" for 10.0.2.2 at 2015-03-08 14:33:20 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mMusic Load (0.1ms)[0m  [1mSELECT `musics`.* FROM `musics`[0m
+
+
+Started POST "/get_playlist" for 10.0.2.2 at 2015-03-08 14:36:40 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by MusicPlayerController#play as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"4Hm5kEI6Igm9r59NDM8eTpysFM1Qgj8d+iQpBPI92+nu6dBiI4E3CNAa8CI9MH/g71e2iF24SYH/juyWfiThXw==", "playlist_name"=>"asd"}
+  [1m[35mPlaylist Load (0.1ms)[0m  SELECT `playlists`.* FROM `playlists` WHERE `playlists`.`name` = 'asd' AND `playlists`.`user_id` = 4
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT `playlists`.* FROM `playlists` WHERE `playlists`.`name` = 'asd' AND `playlists`.`user_id` = 4[0m  [["name", "asd"], ["user_id", 4]]
+  [1m[35mMusic Load (0.3ms)[0m  SELECT `musics`.* FROM `musics` WHERE `musics`.`user_id` = 4 AND `musics`.`playlist_id` = 0
+  Rendered music_player/play.html.erb within layouts/application (9.1ms)
+Completed 200 OK in 774ms (Views: 600.0ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 10.0.2.2 at 2015-03-08 14:36:42 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 10.0.2.2 at 2015-03-08 14:36:42 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css?body=1" for 10.0.2.2 at 2015-03-08 14:36:42 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/session-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 10.0.2.2 at 2015-03-08 14:36:42 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 10.0.2.2 at 2015-03-08 14:36:42 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/session-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 10.0.2.2 at 2015-03-08 14:36:43 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application-5101c80a68c0d92c4cef8ea8f46316ff.js?body=1" for 10.0.2.2 at 2015-03-08 14:36:43 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/logout" for 10.0.2.2 at 2015-03-08 14:37:02 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionController#logout as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 10.0.2.2 at 2015-03-08 14:37:02 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionController#start as HTML
+  Rendered session/start.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 370ms (Views: 369.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 10.0.2.2 at 2015-03-08 14:37:03 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 10.0.2.2 at 2015-03-08 14:37:03 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css?body=1" for 10.0.2.2 at 2015-03-08 14:37:03 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/session-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 10.0.2.2 at 2015-03-08 14:37:03 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 10.0.2.2 at 2015-03-08 14:37:03 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/session-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 10.0.2.2 at 2015-03-08 14:37:03 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application-5101c80a68c0d92c4cef8ea8f46316ff.js?body=1" for 10.0.2.2 at 2015-03-08 14:37:03 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started POST "/login" for 10.0.2.2 at 2015-03-08 14:37:10 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionController#login as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"/ZaG2OD4nscJsM5/HTGMx7vta47P5TinpgTcSiR/+A3zBu8qgUOLxmQFoRAszu1pyBbJy8LfTjujrhnYqGbCuw==", "username"=>"darkmega12", "password"=>"[FILTERED]"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`username` = 'darkmega12'[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 121ms (ActiveRecord: 0.9ms)
+
+
+Started GET "/" for 10.0.2.2 at 2015-03-08 14:37:10 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionController#start as HTML
+Redirected to http://localhost:3000/index
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for 10.0.2.2 at 2015-03-08 14:37:10 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MusicPlayerController#index as HTML
+  [1m[35mPlaylist Load (0.2ms)[0m  SELECT `playlists`.* FROM `playlists` WHERE `playlists`.`user_id` = 4
+  Rendered music_player/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 400ms (Views: 397.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 10.0.2.2 at 2015-03-08 14:37:11 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 10.0.2.2 at 2015-03-08 14:37:11 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/session-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 10.0.2.2 at 2015-03-08 14:37:11 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 10.0.2.2 at 2015-03-08 14:37:11 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css?body=1" for 10.0.2.2 at 2015-03-08 14:37:11 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/session-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 10.0.2.2 at 2015-03-08 14:37:11 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application-5101c80a68c0d92c4cef8ea8f46316ff.js?body=1" for 10.0.2.2 at 2015-03-08 14:37:11 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/new_playlist" for 10.0.2.2 at 2015-03-08 14:37:15 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MusicPlayerController#new_playlist as HTML
+  Rendered music_player/new_playlist.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 387ms (Views: 386.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css?body=1" for 10.0.2.2 at 2015-03-08 14:37:16 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/session-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 10.0.2.2 at 2015-03-08 14:37:16 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 10.0.2.2 at 2015-03-08 14:37:16 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/session-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 10.0.2.2 at 2015-03-08 14:37:16 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 10.0.2.2 at 2015-03-08 14:37:16 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 10.0.2.2 at 2015-03-08 14:37:16 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application-5101c80a68c0d92c4cef8ea8f46316ff.js?body=1" for 10.0.2.2 at 2015-03-08 14:37:16 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started POST "/new_playlist" for 10.0.2.2 at 2015-03-08 14:37:20 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MusicPlayerController#create_playlist as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"SsS/7NQHn9sCl2Dnn//iOuASklqMK9CIj6/sPfC8qThEVNYetbyK2m8iD4iuAIOUk+kwH4ERphSKBSmvfKWTjg==", "name"=>"test2"}
+  [1m[36mPlaylist Load (0.4ms)[0m  [1mSELECT `playlists`.* FROM `playlists` WHERE `playlists`.`name` = 'test2' AND `playlists`.`user_id` = 4[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `playlists` (`name`, `user_id`, `created_at`, `updated_at`) VALUES ('test2', 4, '2015-03-08 14:37:20.445082', '2015-03-08 14:37:20.445082')[0m
+  [1m[35m (262.9ms)[0m  COMMIT
+Redirected to http://localhost:3000/index
+Completed 302 Found in 283ms (ActiveRecord: 263.7ms)
+
+
+Started GET "/index" for 10.0.2.2 at 2015-03-08 14:37:20 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MusicPlayerController#index as HTML
+  [1m[36mPlaylist Load (0.3ms)[0m  [1mSELECT `playlists`.* FROM `playlists` WHERE `playlists`.`user_id` = 4[0m
+  Rendered music_player/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 352ms (Views: 349.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css?body=1" for 10.0.2.2 at 2015-03-08 14:37:21 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 10.0.2.2 at 2015-03-08 14:37:21 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/session-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 10.0.2.2 at 2015-03-08 14:37:21 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 10.0.2.2 at 2015-03-08 14:37:21 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/session-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 10.0.2.2 at 2015-03-08 14:37:21 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 10.0.2.2 at 2015-03-08 14:37:21 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application-5101c80a68c0d92c4cef8ea8f46316ff.js?body=1" for 10.0.2.2 at 2015-03-08 14:37:21 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started POST "/get_playlist" for 10.0.2.2 at 2015-03-08 14:37:24 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MusicPlayerController#play as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"x01JwEgWGz8uBguRmn0+WmPRsTNDMZT4B2zn1DP0nSnJ3SAyKa0OPkOzZP6rgl/0ECoTdk4L4mQCxiJGv+2nnw==", "playlist_name"=>"asd"}
+  [1m[35mPlaylist Load (0.3ms)[0m  SELECT `playlists`.* FROM `playlists` WHERE `playlists`.`name` = 'asd' AND `playlists`.`user_id` = 4
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT `playlists`.* FROM `playlists` WHERE `playlists`.`name` = 'asd' AND `playlists`.`user_id` = 4[0m  [["name", "asd"], ["user_id", 4]]
+  [1m[35mMusic Load (0.1ms)[0m  SELECT `musics`.* FROM `musics` WHERE `musics`.`user_id` = 4 AND `musics`.`playlist_id` = 0
+  Rendered music_player/play.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 396ms (Views: 390.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 10.0.2.2 at 2015-03-08 14:37:25 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css?body=1" for 10.0.2.2 at 2015-03-08 14:37:25 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 10.0.2.2 at 2015-03-08 14:37:25 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/session-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 10.0.2.2 at 2015-03-08 14:37:25 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 10.0.2.2 at 2015-03-08 14:37:25 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/session-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 10.0.2.2 at 2015-03-08 14:37:25 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application-5101c80a68c0d92c4cef8ea8f46316ff.js?body=1" for 10.0.2.2 at 2015-03-08 14:37:25 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/logout" for 10.0.2.2 at 2015-03-08 14:42:42 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionController#logout as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 10.0.2.2 at 2015-03-08 14:42:42 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionController#start as HTML
+  Rendered session/start.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 347ms (Views: 345.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css?body=1" for 10.0.2.2 at 2015-03-08 14:42:43 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 10.0.2.2 at 2015-03-08 14:42:43 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 10.0.2.2 at 2015-03-08 14:42:43 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/session-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 10.0.2.2 at 2015-03-08 14:42:43 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 10.0.2.2 at 2015-03-08 14:42:43 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/session-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 10.0.2.2 at 2015-03-08 14:42:43 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application-5101c80a68c0d92c4cef8ea8f46316ff.js?body=1" for 10.0.2.2 at 2015-03-08 14:42:43 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT `users`.* FROM `users`[0m
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT `users`.* FROM `users`[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT `schema_migrations`.* FROM `schema_migrations`
+  [1m[36m (0.2ms)[0m  [1mSELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'musicPlayer'
+  AND fk.table_name = 'musics'
+[0m
+  [1m[35m (0.1ms)[0m  SHOW CREATE TABLE `musics`
+  [1m[36m (0.2ms)[0m  [1mSELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'musicPlayer'
+  AND fk.table_name = 'playlists'
+[0m
+  [1m[35m (0.1ms)[0m  SHOW CREATE TABLE `playlists`
+  [1m[36m (0.2ms)[0m  [1mSELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'musicPlayer'
+  AND fk.table_name = 'users'
+[0m
+  [1m[35m (0.2ms)[0m  SHOW CREATE TABLE `users`
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT `schema_migrations`.* FROM `schema_migrations`
+  [1m[36m (0.2ms)[0m  [1mSELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'musicPlayer'
+  AND fk.table_name = 'musics'
+[0m
+  [1m[35m (0.1ms)[0m  SHOW CREATE TABLE `musics`
+  [1m[36m (0.2ms)[0m  [1mSELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'musicPlayer'
+  AND fk.table_name = 'playlists'
+[0m
+  [1m[35m (0.1ms)[0m  SHOW CREATE TABLE `playlists`
+  [1m[36m (0.2ms)[0m  [1mSELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'musicPlayer'
+  AND fk.table_name = 'users'
+[0m
+  [1m[35m (0.1ms)[0m  SHOW CREATE TABLE `users`
+
+
+Started GET "/" for 10.0.2.2 at 2015-03-08 14:58:32 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by SessionController#start as HTML
+  Rendered session/start.html.erb within layouts/application (9.4ms)
+Completed 200 OK in 662ms (Views: 626.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/session-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 10.0.2.2 at 2015-03-08 14:58:34 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 10.0.2.2 at 2015-03-08 14:58:34 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/session-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 10.0.2.2 at 2015-03-08 14:58:34 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css?body=1" for 10.0.2.2 at 2015-03-08 14:58:34 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 10.0.2.2 at 2015-03-08 14:58:34 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 10.0.2.2 at 2015-03-08 14:58:34 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application-5101c80a68c0d92c4cef8ea8f46316ff.js?body=1" for 10.0.2.2 at 2015-03-08 14:58:35 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started POST "/login" for 10.0.2.2 at 2015-03-08 14:58:42 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionController#login as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"rBcRFmUf4fekfBatevEmb5+e289B6jZPb7EfGX/Q1sqih3jkBKT09snJecJLDkfB7GV5ikzQQNNqG9qL88nsfA==", "username"=>"darkmega12", "password"=>"[FILTERED]"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`username` = 'darkmega12'
+Redirected to http://localhost:3000/
+Completed 302 Found in 183ms (ActiveRecord: 1.0ms)
+
+
+Started GET "/" for 10.0.2.2 at 2015-03-08 14:58:42 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionController#start as HTML
+Redirected to http://localhost:3000/index
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for 10.0.2.2 at 2015-03-08 14:58:42 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MusicPlayerController#index as HTML
+  [1m[36mPlaylist Load (0.2ms)[0m  [1mSELECT `playlists`.* FROM `playlists` WHERE `playlists`.`user_id` = 4[0m
+  Rendered music_player/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 472ms (Views: 365.3ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css?body=1" for 10.0.2.2 at 2015-03-08 14:58:43 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 10.0.2.2 at 2015-03-08 14:58:43 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 10.0.2.2 at 2015-03-08 14:58:43 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 10.0.2.2 at 2015-03-08 14:58:43 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/session-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 10.0.2.2 at 2015-03-08 14:58:43 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/session-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 10.0.2.2 at 2015-03-08 14:58:43 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application-5101c80a68c0d92c4cef8ea8f46316ff.js?body=1" for 10.0.2.2 at 2015-03-08 14:58:43 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started POST "/get_playlist" for 10.0.2.2 at 2015-03-08 14:58:48 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MusicPlayerController#play as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"XJ+2pAhwYiSpOGTN91Ea6cBiwDZROj+dywc+BKf4/aFSD99Wact3JcSNC6LGrntHs5lic1wASQHOrfuWK+HHFw==", "playlist_name"=>"asd"}
+  [1m[35mPlaylist Load (0.1ms)[0m  SELECT `playlists`.* FROM `playlists` WHERE `playlists`.`name` = 'asd' AND `playlists`.`user_id` = 4
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT `playlists`.* FROM `playlists` WHERE `playlists`.`name` = 'asd' AND `playlists`.`user_id` = 4[0m  [["name", "asd"], ["user_id", 4]]
+Completed 500 Internal Server Error in 43ms
+
+SyntaxError (/projects/mini2/MusicPlayer/app/models/music.rb:17: syntax error, unexpected end-of-input, expecting keyword_end):
+  app/models/music.rb:17: syntax error, unexpected end-of-input, expecting keyword_end
+  app/controllers/music_player_controller.rb:32:in `play'
+
+
+  Rendered /home/vagrant/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.1ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.8ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (28.6ms)
+
+
+Started POST "/get_playlist" for 10.0.2.2 at 2015-03-08 14:59:04 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MusicPlayerController#play as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"XJ+2pAhwYiSpOGTN91Ea6cBiwDZROj+dywc+BKf4/aFSD99Wact3JcSNC6LGrntHs5lic1wASQHOrfuWK+HHFw==", "playlist_name"=>"asd"}
+  [1m[35mPlaylist Load (0.1ms)[0m  SELECT `playlists`.* FROM `playlists` WHERE `playlists`.`name` = 'asd' AND `playlists`.`user_id` = 4
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT `playlists`.* FROM `playlists` WHERE `playlists`.`name` = 'asd' AND `playlists`.`user_id` = 4[0m  [["name", "asd"], ["user_id", 4]]
+  [1m[35mMusic Load (0.3ms)[0m  SELECT `musics`.* FROM `musics` WHERE `musics`.`user_id` = 4 AND `musics`.`playlist_id` = 4
+Completed 500 Internal Server Error in 72ms
+
+ArgumentError (wrong number of arguments (2 for 3)):
+  app/models/music.rb:10:in `get_path'
+  app/controllers/music_player_controller.rb:34:in `play'
+
+
+  Rendered /home/vagrant/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.7ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.8ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (27.1ms)
+
+
+Started POST "/get_playlist" for 10.0.2.2 at 2015-03-08 15:00:47 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MusicPlayerController#play as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"XJ+2pAhwYiSpOGTN91Ea6cBiwDZROj+dywc+BKf4/aFSD99Wact3JcSNC6LGrntHs5lic1wASQHOrfuWK+HHFw==", "playlist_name"=>"asd"}
+  [1m[36mPlaylist Load (0.1ms)[0m  [1mSELECT `playlists`.* FROM `playlists` WHERE `playlists`.`name` = 'asd' AND `playlists`.`user_id` = 4[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT `playlists`.* FROM `playlists` WHERE `playlists`.`name` = 'asd' AND `playlists`.`user_id` = 4  [["name", "asd"], ["user_id", 4]]
+  [1m[36mMusic Load (0.1ms)[0m  [1mSELECT `musics`.* FROM `musics` WHERE `musics`.`user_id` = 4 AND `musics`.`playlist_id` = 4[0m
+Completed 500 Internal Server Error in 71ms
+
+ArgumentError (wrong number of arguments (2 for 3)):
+  app/models/music.rb:10:in `get_path'
+  app/controllers/music_player_controller.rb:34:in `play'
+
+
+  Rendered /home/vagrant/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.5ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.8ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (27.5ms)
+
+
+Started POST "/get_playlist" for 10.0.2.2 at 2015-03-08 15:01:00 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MusicPlayerController#play as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"XJ+2pAhwYiSpOGTN91Ea6cBiwDZROj+dywc+BKf4/aFSD99Wact3JcSNC6LGrntHs5lic1wASQHOrfuWK+HHFw==", "playlist_name"=>"asd"}
+  [1m[35mPlaylist Load (0.1ms)[0m  SELECT `playlists`.* FROM `playlists` WHERE `playlists`.`name` = 'asd' AND `playlists`.`user_id` = 4
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT `playlists`.* FROM `playlists` WHERE `playlists`.`name` = 'asd' AND `playlists`.`user_id` = 4[0m  [["name", "asd"], ["user_id", 4]]
+  [1m[35mMusic Load (0.1ms)[0m  SELECT `musics`.* FROM `musics` WHERE `musics`.`user_id` = 4 AND `musics`.`playlist_id` = 4
+Completed 500 Internal Server Error in 6ms
+
+ArgumentError (wrong number of arguments (2 for 3)):
+  app/models/music.rb:10:in `get_path'
+  app/controllers/music_player_controller.rb:34:in `play'
+
+
+  Rendered /home/vagrant/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (47.8ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.2ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (73.4ms)
+
+
+Started POST "/get_playlist" for 10.0.2.2 at 2015-03-08 15:01:37 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MusicPlayerController#play as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"XJ+2pAhwYiSpOGTN91Ea6cBiwDZROj+dywc+BKf4/aFSD99Wact3JcSNC6LGrntHs5lic1wASQHOrfuWK+HHFw==", "playlist_name"=>"asd"}
+  [1m[36mPlaylist Load (0.1ms)[0m  [1mSELECT `playlists`.* FROM `playlists` WHERE `playlists`.`name` = 'asd' AND `playlists`.`user_id` = 4[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT `playlists`.* FROM `playlists` WHERE `playlists`.`name` = 'asd' AND `playlists`.`user_id` = 4  [["name", "asd"], ["user_id", 4]]
+  [1m[36mMusic Load (0.1ms)[0m  [1mSELECT `musics`.* FROM `musics` WHERE `musics`.`user_id` = 4 AND `musics`.`playlist_id` = 4[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT `musics`.* FROM `musics` WHERE `musics`.`user_id` = 4 AND `musics`.`playlist_id` = 4  [["user_id", 4], ["playlist_id", 4]]
+Completed 500 Internal Server Error in 86ms
+
+NoMethodError (undefined method `>' for nil:NilClass):
+  app/models/music.rb:13:in `get_path'
+  app/controllers/music_player_controller.rb:34:in `play'
+
+
+  Rendered /home/vagrant/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.4ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.0ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (26.5ms)
+
+
+Started GET "/logout" for 10.0.2.2 at 2015-03-08 15:02:15 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionController#logout as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 10.0.2.2 at 2015-03-08 15:02:15 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionController#start as HTML
+  Rendered session/start.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 391ms (Views: 390.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css?body=1" for 10.0.2.2 at 2015-03-08 15:02:16 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/session-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 10.0.2.2 at 2015-03-08 15:02:16 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 10.0.2.2 at 2015-03-08 15:02:16 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 10.0.2.2 at 2015-03-08 15:02:16 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 10.0.2.2 at 2015-03-08 15:02:16 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/session-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 10.0.2.2 at 2015-03-08 15:02:16 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application-5101c80a68c0d92c4cef8ea8f46316ff.js?body=1" for 10.0.2.2 at 2015-03-08 15:02:16 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started POST "/login" for 10.0.2.2 at 2015-03-08 15:02:20 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionController#login as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Vrny6N6XbCo7Q/RnmrAlDY7cRhtjc7Ku3HfN6+IztVBYKZsavyx5K1b2mwirT0Sj/SfkXm5JxDLZ3Qh5biqP5g==", "username"=>"darkmega12", "password"=>"[FILTERED]"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`username` = 'darkmega12'[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 138ms (ActiveRecord: 0.9ms)
+
+
+Started GET "/" for 10.0.2.2 at 2015-03-08 15:02:20 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionController#start as HTML
+Redirected to http://localhost:3000/index
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for 10.0.2.2 at 2015-03-08 15:02:20 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MusicPlayerController#index as HTML
+  [1m[35mPlaylist Load (0.2ms)[0m  SELECT `playlists`.* FROM `playlists` WHERE `playlists`.`user_id` = 4
+  Rendered music_player/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 359ms (Views: 356.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 10.0.2.2 at 2015-03-08 15:02:21 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 10.0.2.2 at 2015-03-08 15:02:21 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/session-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 10.0.2.2 at 2015-03-08 15:02:21 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 10.0.2.2 at 2015-03-08 15:02:21 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css?body=1" for 10.0.2.2 at 2015-03-08 15:02:21 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/session-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 10.0.2.2 at 2015-03-08 15:02:21 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application-5101c80a68c0d92c4cef8ea8f46316ff.js?body=1" for 10.0.2.2 at 2015-03-08 15:02:21 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started POST "/get_playlist" for 10.0.2.2 at 2015-03-08 15:02:24 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MusicPlayerController#play as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"67WwF9sqlCdQgLVPzrVl5Mr796s6qv7Ji17wuzuafmzlJdnlupGBJj012iD/SgRKuQBV7jeQiFWO9DUpt4NE2g==", "playlist_name"=>"asd"}
+  [1m[36mPlaylist Load (0.1ms)[0m  [1mSELECT `playlists`.* FROM `playlists` WHERE `playlists`.`name` = 'asd' AND `playlists`.`user_id` = 4[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT `playlists`.* FROM `playlists` WHERE `playlists`.`name` = 'asd' AND `playlists`.`user_id` = 4  [["name", "asd"], ["user_id", 4]]
+  [1m[36mMusic Load (0.1ms)[0m  [1mSELECT `musics`.* FROM `musics` WHERE `musics`.`user_id` = 4 AND `musics`.`playlist_id` = 4[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT `musics`.* FROM `musics` WHERE `musics`.`user_id` = 4 AND `musics`.`playlist_id` = 4  [["user_id", 4], ["playlist_id", 4]]
+  Rendered music_player/play.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 361ms (Views: 355.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 10.0.2.2 at 2015-03-08 15:02:24 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/session-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 10.0.2.2 at 2015-03-08 15:02:24 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css?body=1" for 10.0.2.2 at 2015-03-08 15:02:24 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 10.0.2.2 at 2015-03-08 15:02:24 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/session-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 10.0.2.2 at 2015-03-08 15:02:25 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 10.0.2.2 at 2015-03-08 15:02:25 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application-5101c80a68c0d92c4cef8ea8f46316ff.js?body=1" for 10.0.2.2 at 2015-03-08 15:02:25 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started POST "/upload_music" for 10.0.2.2 at 2015-03-08 15:02:39 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MusicPlayerController#upload as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"4zMqJ8/nIwGpiNKcD7XnNvuNTPl4fI6VDVcDAAtynjTto0PVrlw2AMQ9vfM+SoaYiHbuvHVG+AkI/caSh2ukgg==", "name"=>"going out", "upload"=>#<ActionDispatch::Http::UploadedFile:0x9c410e0 @tempfile=#<Tempfile:/tmp/RackMultipart20150308-5028-t30rgt.mp3>, @original_filename="01 Going Out.mp3", @content_type="audio/mp3", @headers="Content-Disposition: form-data; name=\"upload\"; filename=\"01 Going Out.mp3\"\r\nContent-Type: audio/mp3\r\n">}
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `musics` (`name`, `path`, `user_id`, `playlist_id`, `created_at`, `updated_at`) VALUES ('going out', 'public/uploads/01 Going Out.mp3', 4, 4, '2015-03-08 15:02:39.340950', '2015-03-08 15:02:39.340950')
+  [1m[36m (48.3ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000updated_play
+Completed 302 Found in 182ms (ActiveRecord: 48.8ms)
+
+
+Started POST "/upload_music" for 10.0.2.2 at 2015-03-08 15:02:39 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MusicPlayerController#upload as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"4zMqJ8/nIwGpiNKcD7XnNvuNTPl4fI6VDVcDAAtynjTto0PVrlw2AMQ9vfM+SoaYiHbuvHVG+AkI/caSh2ukgg==", "name"=>"going out", "upload"=>#<ActionDispatch::Http::UploadedFile:0xa9d46f8 @tempfile=#<Tempfile:/tmp/RackMultipart20150308-5028-1dnc21z.mp3>, @original_filename="01 Going Out.mp3", @content_type="audio/mp3", @headers="Content-Disposition: form-data; name=\"upload\"; filename=\"01 Going Out.mp3\"\r\nContent-Type: audio/mp3\r\n">}
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `musics` (`name`, `path`, `user_id`, `playlist_id`, `created_at`, `updated_at`) VALUES ('going out', 'public/uploads/01 Going Out.mp3', 4, 4, '2015-03-08 15:02:40.021592', '2015-03-08 15:02:40.021592')[0m
+  [1m[35m (121.5ms)[0m  COMMIT
+Redirected to http://localhost:3000updated_play
+Completed 302 Found in 493ms (ActiveRecord: 121.9ms)
+
+
+Started POST "/upload_music" for 10.0.2.2 at 2015-03-08 15:02:40 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MusicPlayerController#upload as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"4zMqJ8/nIwGpiNKcD7XnNvuNTPl4fI6VDVcDAAtynjTto0PVrlw2AMQ9vfM+SoaYiHbuvHVG+AkI/caSh2ukgg==", "name"=>"going out", "upload"=>#<ActionDispatch::Http::UploadedFile:0xa86eb74 @tempfile=#<Tempfile:/tmp/RackMultipart20150308-5028-w1p2ps.mp3>, @original_filename="01 Going Out.mp3", @content_type="audio/mp3", @headers="Content-Disposition: form-data; name=\"upload\"; filename=\"01 Going Out.mp3\"\r\nContent-Type: audio/mp3\r\n">}
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `musics` (`name`, `path`, `user_id`, `playlist_id`, `created_at`, `updated_at`) VALUES ('going out', 'public/uploads/01 Going Out.mp3', 4, 4, '2015-03-08 15:02:40.485335', '2015-03-08 15:02:40.485335')
+  [1m[36m (2.7ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000updated_play
+Completed 302 Found in 70ms (ActiveRecord: 3.1ms)
+
+
+Started POST "/upload_music" for 10.0.2.2 at 2015-03-08 15:02:40 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MusicPlayerController#upload as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"4zMqJ8/nIwGpiNKcD7XnNvuNTPl4fI6VDVcDAAtynjTto0PVrlw2AMQ9vfM+SoaYiHbuvHVG+AkI/caSh2ukgg==", "name"=>"going out", "upload"=>#<ActionDispatch::Http::UploadedFile:0xa6c09a8 @tempfile=#<Tempfile:/tmp/RackMultipart20150308-5028-qau0xp.mp3>, @original_filename="01 Going Out.mp3", @content_type="audio/mp3", @headers="Content-Disposition: form-data; name=\"upload\"; filename=\"01 Going Out.mp3\"\r\nContent-Type: audio/mp3\r\n">}
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO `musics` (`name`, `path`, `user_id`, `playlist_id`, `created_at`, `updated_at`) VALUES ('going out', 'public/uploads/01 Going Out.mp3', 4, 4, '2015-03-08 15:02:40.848350', '2015-03-08 15:02:40.848350')[0m
+  [1m[35m (32.4ms)[0m  COMMIT
+Redirected to http://localhost:3000updated_play
+Completed 302 Found in 114ms (ActiveRecord: 32.9ms)
+
+
+Started POST "/upload_music" for 10.0.2.2 at 2015-03-08 15:02:41 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MusicPlayerController#upload as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"4zMqJ8/nIwGpiNKcD7XnNvuNTPl4fI6VDVcDAAtynjTto0PVrlw2AMQ9vfM+SoaYiHbuvHVG+AkI/caSh2ukgg==", "name"=>"going out", "upload"=>#<ActionDispatch::Http::UploadedFile:0x9c2cc6c @tempfile=#<Tempfile:/tmp/RackMultipart20150308-5028-pu011q.mp3>, @original_filename="01 Going Out.mp3", @content_type="audio/mp3", @headers="Content-Disposition: form-data; name=\"upload\"; filename=\"01 Going Out.mp3\"\r\nContent-Type: audio/mp3\r\n">}
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `musics` (`name`, `path`, `user_id`, `playlist_id`, `created_at`, `updated_at`) VALUES ('going out', 'public/uploads/01 Going Out.mp3', 4, 4, '2015-03-08 15:02:41.292910', '2015-03-08 15:02:41.292910')
+  [1m[36m (33.3ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000updated_play
+Completed 302 Found in 153ms (ActiveRecord: 33.7ms)
+
+
+Started POST "/upload_music" for 10.0.2.2 at 2015-03-08 15:02:41 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MusicPlayerController#upload as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"4zMqJ8/nIwGpiNKcD7XnNvuNTPl4fI6VDVcDAAtynjTto0PVrlw2AMQ9vfM+SoaYiHbuvHVG+AkI/caSh2ukgg==", "name"=>"going out", "upload"=>#<ActionDispatch::Http::UploadedFile:0xa9e7f28 @tempfile=#<Tempfile:/tmp/RackMultipart20150308-5028-mkcofz.mp3>, @original_filename="01 Going Out.mp3", @content_type="audio/mp3", @headers="Content-Disposition: form-data; name=\"upload\"; filename=\"01 Going Out.mp3\"\r\nContent-Type: audio/mp3\r\n">}
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `musics` (`name`, `path`, `user_id`, `playlist_id`, `created_at`, `updated_at`) VALUES ('going out', 'public/uploads/01 Going Out.mp3', 4, 4, '2015-03-08 15:02:41.691246', '2015-03-08 15:02:41.691246')[0m
+  [1m[35m (3.3ms)[0m  COMMIT
+Redirected to http://localhost:3000updated_play
+Completed 302 Found in 124ms (ActiveRecord: 3.8ms)
+
+
+Started POST "/upload_music" for 10.0.2.2 at 2015-03-08 15:02:43 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MusicPlayerController#upload as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"4zMqJ8/nIwGpiNKcD7XnNvuNTPl4fI6VDVcDAAtynjTto0PVrlw2AMQ9vfM+SoaYiHbuvHVG+AkI/caSh2ukgg==", "name"=>"going out", "upload"=>#<ActionDispatch::Http::UploadedFile:0xa9c29a8 @tempfile=#<Tempfile:/tmp/RackMultipart20150308-5028-aom4x1.mp3>, @original_filename="01 Going Out.mp3", @content_type="audio/mp3", @headers="Content-Disposition: form-data; name=\"upload\"; filename=\"01 Going Out.mp3\"\r\nContent-Type: audio/mp3\r\n">}
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `musics` (`name`, `path`, `user_id`, `playlist_id`, `created_at`, `updated_at`) VALUES ('going out', 'public/uploads/01 Going Out.mp3', 4, 4, '2015-03-08 15:02:43.568707', '2015-03-08 15:02:43.568707')
+  [1m[36m (18.9ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000updated_play
+Completed 302 Found in 198ms (ActiveRecord: 19.3ms)
+
+
+Started GET "/assets/session-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 10.0.2.2 at 2015-03-08 15:03:10 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css?body=1" for 10.0.2.2 at 2015-03-08 15:03:10 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/session-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 10.0.2.2 at 2015-03-08 15:03:10 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 10.0.2.2 at 2015-03-08 15:03:10 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 10.0.2.2 at 2015-03-08 15:03:10 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 10.0.2.2 at 2015-03-08 15:03:11 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application-5101c80a68c0d92c4cef8ea8f46316ff.js?body=1" for 10.0.2.2 at 2015-03-08 15:03:11 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/upload_music" for 10.0.2.2 at 2015-03-08 15:03:11 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [GET] "/upload_music"):
+  actionpack (4.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.1.1) lib/web_console/middleware.rb:29:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.0) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  rack (1.6.0) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0) lib/rack/handler/webrick.rb:89:in `service'
+  /home/vagrant/.rvm/rubies/ruby-2.0.0-p598/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/vagrant/.rvm/rubies/ruby-2.0.0-p598/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/vagrant/.rvm/rubies/ruby-2.0.0-p598/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/vagrant/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.5ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (49.9ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (92.6ms)
+
+
+Started GET "/get_playlist" for 10.0.2.2 at 2015-03-08 15:03:12 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [GET] "/get_playlist"):
+  actionpack (4.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.1.1) lib/web_console/middleware.rb:29:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.0) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  rack (1.6.0) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0) lib/rack/handler/webrick.rb:89:in `service'
+  /home/vagrant/.rvm/rubies/ruby-2.0.0-p598/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/vagrant/.rvm/rubies/ruby-2.0.0-p598/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/vagrant/.rvm/rubies/ruby-2.0.0-p598/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/vagrant/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.9ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.5ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.7ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (29.1ms)
+
+
+Started POST "/get_playlist" for 10.0.2.2 at 2015-03-08 15:03:17 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MusicPlayerController#play as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"67WwF9sqlCdQgLVPzrVl5Mr796s6qv7Ji17wuzuafmzlJdnlupGBJj012iD/SgRKuQBV7jeQiFWO9DUpt4NE2g==", "playlist_name"=>"asd"}
+  [1m[35mPlaylist Load (0.1ms)[0m  SELECT `playlists`.* FROM `playlists` WHERE `playlists`.`name` = 'asd' AND `playlists`.`user_id` = 4
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT `playlists`.* FROM `playlists` WHERE `playlists`.`name` = 'asd' AND `playlists`.`user_id` = 4[0m  [["name", "asd"], ["user_id", 4]]
+  [1m[35mMusic Load (0.3ms)[0m  SELECT `musics`.* FROM `musics` WHERE `musics`.`user_id` = 4 AND `musics`.`playlist_id` = 4
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT `musics`.* FROM `musics` WHERE `musics`.`user_id` = 4 AND `musics`.`playlist_id` = 4[0m  [["user_id", 4], ["playlist_id", 4]]
+  Rendered music_player/play.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 359ms (Views: 352.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 10.0.2.2 at 2015-03-08 15:03:18 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/session-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 10.0.2.2 at 2015-03-08 15:03:18 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/session-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 10.0.2.2 at 2015-03-08 15:03:18 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css?body=1" for 10.0.2.2 at 2015-03-08 15:03:18 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 10.0.2.2 at 2015-03-08 15:03:18 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 10.0.2.2 at 2015-03-08 15:03:18 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application-5101c80a68c0d92c4cef8ea8f46316ff.js?body=1" for 10.0.2.2 at 2015-03-08 15:03:18 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started POST "/upload_music" for 10.0.2.2 at 2015-03-08 15:07:49 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MusicPlayerController#upload as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"OGSSznMHZb6mV70vRw4kJdtztDai6X+fntHZcVKJutc29Ps8Erxwv8vi0kB28UWLqIgWc6/TCQObexzj3pCAYQ==", "name"=>"www", "upload"=>#<ActionDispatch::Http::UploadedFile:0xa597dc4 @tempfile=#<Tempfile:/tmp/RackMultipart20150308-5028-141hizo.mp3>, @original_filename="01 Going Out.mp3", @content_type="audio/mp3", @headers="Content-Disposition: form-data; name=\"upload\"; filename=\"01 Going Out.mp3\"\r\nContent-Type: audio/mp3\r\n">}
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO `musics` (`name`, `path`, `user_id`, `playlist_id`, `created_at`, `updated_at`) VALUES ('www', 'public/uploads/01 Going Out.mp3', 4, 4, '2015-03-08 15:07:49.726353', '2015-03-08 15:07:49.726353')[0m
+  [1m[35m (1143.5ms)[0m  COMMIT
+Redirected to http://localhost:3000updated_play
+Completed 302 Found in 1210ms (ActiveRecord: 1144.2ms)
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Migrating to RedoMusic (20150308150923)
+  [1m[35m (23.3ms)[0m  CREATE TABLE `musics` (`id` int(11) auto_increment PRIMARY KEY, `name` varchar(255), `path` varchar(255), `playlist_id` int(11), `user_id` int(11), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL) ENGINE=InnoDB
+Mysql2::Error: Table 'musics' already exists: CREATE TABLE `musics` (`id` int(11) auto_increment PRIMARY KEY, `name` varchar(255), `path` varchar(255), `playlist_id` int(11), `user_id` int(11), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL) ENGINE=InnoDB
+  [1m[36mMusic Load (0.4ms)[0m  [1mSELECT `musics`.* FROM `musics`[0m
+  [1m[35mMusic Load (0.1ms)[0m  SELECT `musics`.* FROM `musics`
+  [1m[36mMusic Load (0.1ms)[0m  [1mSELECT `musics`.* FROM `musics`[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mDELETE FROM `musics` WHERE `musics`.`id` = 3[0m
+  [1m[35m (39.2ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  DELETE FROM `musics` WHERE `musics`.`id` = 4
+  [1m[36m (2.8ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM `musics` WHERE `musics`.`id` = 5[0m
+  [1m[35m (2.4ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  DELETE FROM `musics` WHERE `musics`.`id` = 6
+  [1m[36m (1.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM `musics` WHERE `musics`.`id` = 7[0m
+  [1m[35m (2.5ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  DELETE FROM `musics` WHERE `musics`.`id` = 8
+  [1m[36m (2.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mDELETE FROM `musics` WHERE `musics`.`id` = 9[0m
+  [1m[35m (2.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  DELETE FROM `musics` WHERE `musics`.`id` = 10
+  [1m[36m (2.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM `musics` WHERE `musics`.`id` = 11[0m
+  [1m[35m (9.7ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  DELETE FROM `musics` WHERE `musics`.`id` = 12
+  [1m[36m (3.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mDELETE FROM `musics` WHERE `musics`.`id` = 13[0m
+  [1m[35m (2.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  DELETE FROM `musics` WHERE `musics`.`id` = 14
+  [1m[36m (2.4ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mDELETE FROM `musics` WHERE `musics`.`id` = 15[0m
+  [1m[35m (10.0ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  DELETE FROM `musics` WHERE `musics`.`id` = 16
+  [1m[36m (2.5ms)[0m  [1mCOMMIT[0m
+
+
+Started GET "/" for 10.0.2.2 at 2015-03-08 15:16:31 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by SessionController#start as HTML
+Redirected to http://localhost:3000/index
+Completed 302 Found in 34ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for 10.0.2.2 at 2015-03-08 15:16:32 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MusicPlayerController#index as HTML
+  [1m[35mPlaylist Load (0.1ms)[0m  SELECT `playlists`.* FROM `playlists` WHERE `playlists`.`user_id` = 4
+  Rendered music_player/index.html.erb within layouts/application (8.6ms)
+Completed 200 OK in 905ms (Views: 739.1ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/session-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 10.0.2.2 at 2015-03-08 15:16:33 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css?body=1" for 10.0.2.2 at 2015-03-08 15:16:33 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 10.0.2.2 at 2015-03-08 15:16:34 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 10.0.2.2 at 2015-03-08 15:16:34 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application-5101c80a68c0d92c4cef8ea8f46316ff.js?body=1" for 10.0.2.2 at 2015-03-08 15:16:34 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/session-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 10.0.2.2 at 2015-03-08 15:16:34 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 10.0.2.2 at 2015-03-08 15:16:34 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/logout" for 10.0.2.2 at 2015-03-08 15:16:38 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionController#logout as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 10.0.2.2 at 2015-03-08 15:16:39 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionController#start as HTML
+  Rendered session/start.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 378ms (Views: 377.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 10.0.2.2 at 2015-03-08 15:16:39 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css?body=1" for 10.0.2.2 at 2015-03-08 15:16:39 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/session-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 10.0.2.2 at 2015-03-08 15:16:39 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 10.0.2.2 at 2015-03-08 15:16:39 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/session-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 10.0.2.2 at 2015-03-08 15:16:39 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 10.0.2.2 at 2015-03-08 15:16:39 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application-5101c80a68c0d92c4cef8ea8f46316ff.js?body=1" for 10.0.2.2 at 2015-03-08 15:16:39 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started POST "/login" for 10.0.2.2 at 2015-03-08 15:16:47 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionController#login as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"OvpzP1r/10Tb7+Wz6lYSLi2yfQkL/zv5SxjtyhTU8Ls0ahrNO0TCRbZaitzbqXOAXknfTAbFTWVOsihYmM3KDQ==", "username"=>"darkmega12", "password"=>"[FILTERED]"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`username` = 'darkmega12'[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 141ms (ActiveRecord: 1.6ms)
+
+
+Started GET "/" for 10.0.2.2 at 2015-03-08 15:16:47 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionController#start as HTML
+Redirected to http://localhost:3000/index
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for 10.0.2.2 at 2015-03-08 15:16:47 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MusicPlayerController#index as HTML
+  [1m[35mPlaylist Load (0.2ms)[0m  SELECT `playlists`.* FROM `playlists` WHERE `playlists`.`user_id` = 4
+  Rendered music_player/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 360ms (Views: 357.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css?body=1" for 10.0.2.2 at 2015-03-08 15:16:47 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 10.0.2.2 at 2015-03-08 15:16:48 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/session-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 10.0.2.2 at 2015-03-08 15:16:48 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/session-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 10.0.2.2 at 2015-03-08 15:16:48 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 10.0.2.2 at 2015-03-08 15:16:48 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 10.0.2.2 at 2015-03-08 15:16:48 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application-5101c80a68c0d92c4cef8ea8f46316ff.js?body=1" for 10.0.2.2 at 2015-03-08 15:16:48 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started POST "/get_playlist" for 10.0.2.2 at 2015-03-08 15:16:52 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MusicPlayerController#play as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"RxvRTAPbuRSSaFCw/JDHhuPaOxgUzF8M9/jl/BS2vD1Ji7i+YmCsFf/dP9/Nb6YokCGZXRn2KZDyUiBumK+Giw==", "playlist_name"=>"test2"}
+  [1m[36mPlaylist Load (0.3ms)[0m  [1mSELECT `playlists`.* FROM `playlists` WHERE `playlists`.`name` = 'test2' AND `playlists`.`user_id` = 4[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT `playlists`.* FROM `playlists` WHERE `playlists`.`name` = 'test2' AND `playlists`.`user_id` = 4  [["name", "test2"], ["user_id", 4]]
+  [1m[36mMusic Load (0.2ms)[0m  [1mSELECT `musics`.* FROM `musics` WHERE `musics`.`user_id` = 4 AND `musics`.`playlist_id` = 5[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT `musics`.* FROM `musics` WHERE `musics`.`user_id` = 4 AND `musics`.`playlist_id` = 5  [["user_id", 4], ["playlist_id", 5]]
+Completed 500 Internal Server Error in 43ms
+
+NoMethodError (undefined method `path' for nil:NilClass):
+  app/models/music.rb:16:in `get_path'
+  app/controllers/music_player_controller.rb:34:in `play'
+
+
+  Rendered /home/vagrant/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (8.2ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.5ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (36.1ms)
+
+
+Started POST "/get_playlist" for 10.0.2.2 at 2015-03-08 15:17:42 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MusicPlayerController#play as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"RxvRTAPbuRSSaFCw/JDHhuPaOxgUzF8M9/jl/BS2vD1Ji7i+YmCsFf/dP9/Nb6YokCGZXRn2KZDyUiBumK+Giw==", "playlist_name"=>"test2"}
+  [1m[36mPlaylist Load (0.1ms)[0m  [1mSELECT `playlists`.* FROM `playlists` WHERE `playlists`.`name` = 'test2' AND `playlists`.`user_id` = 4[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT `playlists`.* FROM `playlists` WHERE `playlists`.`name` = 'test2' AND `playlists`.`user_id` = 4  [["name", "test2"], ["user_id", 4]]
+  [1m[36mMusic Load (0.1ms)[0m  [1mSELECT `musics`.* FROM `musics` WHERE `musics`.`user_id` = 4 AND `musics`.`playlist_id` = 5[0m
+  Rendered music_player/play.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 454ms (Views: 388.0ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/assets/session-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 10.0.2.2 at 2015-03-08 15:17:43 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 10.0.2.2 at 2015-03-08 15:17:43 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 10.0.2.2 at 2015-03-08 15:17:43 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 10.0.2.2 at 2015-03-08 15:17:43 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css?body=1" for 10.0.2.2 at 2015-03-08 15:17:43 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/session-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 10.0.2.2 at 2015-03-08 15:17:43 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application-5101c80a68c0d92c4cef8ea8f46316ff.js?body=1" for 10.0.2.2 at 2015-03-08 15:17:43 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started POST "/upload_music" for 10.0.2.2 at 2015-03-08 15:18:01 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MusicPlayerController#upload_music as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ly409ufpvNIgDRzJ4gbchT3a6LX18BoOeHhJvXy59OWZvl0EhlKp0024c6bT+b0rTiFK8PjKbJJ90owv8KDOUw==", "name"=>"fast", "upload"=>#<ActionDispatch::Http::UploadedFile:0xa93cfc4 @tempfile=#<Tempfile:/tmp/RackMultipart20150308-5104-7l134p.mp3>, @original_filename="01 Going Out.mp3", @content_type="audio/mp3", @headers="Content-Disposition: form-data; name=\"upload\"; filename=\"01 Going Out.mp3\"\r\nContent-Type: audio/mp3\r\n">}
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO `musics` (`name`, `path`, `user_id`, `playlist_id`, `created_at`, `updated_at`) VALUES ('fast', 'public/uploads/01 Going Out.mp3', 4, 5, '2015-03-08 15:18:01.784548', '2015-03-08 15:18:01.784548')[0m
+  [1m[35m (80.1ms)[0m  COMMIT
+Redirected to http://localhost:3000upload_music
+Completed 302 Found in 194ms (ActiveRecord: 80.9ms)
+
+
+Started POST "/upload_music" for 10.0.2.2 at 2015-03-08 15:18:03 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MusicPlayerController#upload_music as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ly409ufpvNIgDRzJ4gbchT3a6LX18BoOeHhJvXy59OWZvl0EhlKp0024c6bT+b0rTiFK8PjKbJJ90owv8KDOUw==", "name"=>"fast", "upload"=>#<ActionDispatch::Http::UploadedFile:0xb5412c0 @tempfile=#<Tempfile:/tmp/RackMultipart20150308-5104-1xenvm0.mp3>, @original_filename="01 Going Out.mp3", @content_type="audio/mp3", @headers="Content-Disposition: form-data; name=\"upload\"; filename=\"01 Going Out.mp3\"\r\nContent-Type: audio/mp3\r\n">}
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `musics` (`name`, `path`, `user_id`, `playlist_id`, `created_at`, `updated_at`) VALUES ('fast', 'public/uploads/01 Going Out.mp3', 4, 5, '2015-03-08 15:18:03.784759', '2015-03-08 15:18:03.784759')
+  [1m[36m (122.8ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000upload_music
+Completed 302 Found in 229ms (ActiveRecord: 123.3ms)
+
+
+Started POST "/upload_music" for 10.0.2.2 at 2015-03-08 15:18:04 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MusicPlayerController#upload_music as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ly409ufpvNIgDRzJ4gbchT3a6LX18BoOeHhJvXy59OWZvl0EhlKp0024c6bT+b0rTiFK8PjKbJJ90owv8KDOUw==", "name"=>"fast", "upload"=>#<ActionDispatch::Http::UploadedFile:0xb3a9368 @tempfile=#<Tempfile:/tmp/RackMultipart20150308-5104-153cldc.mp3>, @original_filename="01 Going Out.mp3", @content_type="audio/mp3", @headers="Content-Disposition: form-data; name=\"upload\"; filename=\"01 Going Out.mp3\"\r\nContent-Type: audio/mp3\r\n">}
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `musics` (`name`, `path`, `user_id`, `playlist_id`, `created_at`, `updated_at`) VALUES ('fast', 'public/uploads/01 Going Out.mp3', 4, 5, '2015-03-08 15:18:04.298868', '2015-03-08 15:18:04.298868')[0m
+  [1m[35m (44.3ms)[0m  COMMIT
+Redirected to http://localhost:3000upload_music
+Completed 302 Found in 142ms (ActiveRecord: 44.7ms)
+
+
+Started POST "/upload_music" for 10.0.2.2 at 2015-03-08 15:18:06 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MusicPlayerController#upload_music as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ly409ufpvNIgDRzJ4gbchT3a6LX18BoOeHhJvXy59OWZvl0EhlKp0024c6bT+b0rTiFK8PjKbJJ90owv8KDOUw==", "name"=>"fast", "upload"=>#<ActionDispatch::Http::UploadedFile:0xa9700b8 @tempfile=#<Tempfile:/tmp/RackMultipart20150308-5104-10bgyaw.mp3>, @original_filename="01 Going Out.mp3", @content_type="audio/mp3", @headers="Content-Disposition: form-data; name=\"upload\"; filename=\"01 Going Out.mp3\"\r\nContent-Type: audio/mp3\r\n">}
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `musics` (`name`, `path`, `user_id`, `playlist_id`, `created_at`, `updated_at`) VALUES ('fast', 'public/uploads/01 Going Out.mp3', 4, 5, '2015-03-08 15:18:06.220193', '2015-03-08 15:18:06.220193')
+  [1m[36m (2.4ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000upload_music
+Completed 302 Found in 69ms (ActiveRecord: 2.8ms)
+
+
+Started POST "/upload_music" for 10.0.2.2 at 2015-03-08 15:18:07 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MusicPlayerController#upload_music as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ly409ufpvNIgDRzJ4gbchT3a6LX18BoOeHhJvXy59OWZvl0EhlKp0024c6bT+b0rTiFK8PjKbJJ90owv8KDOUw==", "name"=>"fast", "upload"=>#<ActionDispatch::Http::UploadedFile:0xa92f220 @tempfile=#<Tempfile:/tmp/RackMultipart20150308-5104-1kqo6lv.mp3>, @original_filename="01 Going Out.mp3", @content_type="audio/mp3", @headers="Content-Disposition: form-data; name=\"upload\"; filename=\"01 Going Out.mp3\"\r\nContent-Type: audio/mp3\r\n">}
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO `musics` (`name`, `path`, `user_id`, `playlist_id`, `created_at`, `updated_at`) VALUES ('fast', 'public/uploads/01 Going Out.mp3', 4, 5, '2015-03-08 15:18:08.152714', '2015-03-08 15:18:08.152714')[0m
+  [1m[35m (31.4ms)[0m  COMMIT
+Redirected to http://localhost:3000upload_music
+Completed 302 Found in 179ms (ActiveRecord: 31.9ms)
+
+
+Started POST "/upload_music" for 10.0.2.2 at 2015-03-08 15:18:08 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MusicPlayerController#upload_music as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ly409ufpvNIgDRzJ4gbchT3a6LX18BoOeHhJvXy59OWZvl0EhlKp0024c6bT+b0rTiFK8PjKbJJ90owv8KDOUw==", "name"=>"fast", "upload"=>#<ActionDispatch::Http::UploadedFile:0xb5b8c30 @tempfile=#<Tempfile:/tmp/RackMultipart20150308-5104-fd7wx8.mp3>, @original_filename="01 Going Out.mp3", @content_type="audio/mp3", @headers="Content-Disposition: form-data; name=\"upload\"; filename=\"01 Going Out.mp3\"\r\nContent-Type: audio/mp3\r\n">}
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `musics` (`name`, `path`, `user_id`, `playlist_id`, `created_at`, `updated_at`) VALUES ('fast', 'public/uploads/01 Going Out.mp3', 4, 5, '2015-03-08 15:18:08.542189', '2015-03-08 15:18:08.542189')
+  [1m[36m (2.3ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000upload_music
+Completed 302 Found in 106ms (ActiveRecord: 2.7ms)
+
+
+Started POST "/upload_music" for 10.0.2.2 at 2015-03-08 15:18:10 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MusicPlayerController#upload_music as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ly409ufpvNIgDRzJ4gbchT3a6LX18BoOeHhJvXy59OWZvl0EhlKp0024c6bT+b0rTiFK8PjKbJJ90owv8KDOUw==", "name"=>"fast", "upload"=>#<ActionDispatch::Http::UploadedFile:0xb58b3c0 @tempfile=#<Tempfile:/tmp/RackMultipart20150308-5104-1dfdyl9.mp3>, @original_filename="01 Going Out.mp3", @content_type="audio/mp3", @headers="Content-Disposition: form-data; name=\"upload\"; filename=\"01 Going Out.mp3\"\r\nContent-Type: audio/mp3\r\n">}
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `musics` (`name`, `path`, `user_id`, `playlist_id`, `created_at`, `updated_at`) VALUES ('fast', 'public/uploads/01 Going Out.mp3', 4, 5, '2015-03-08 15:18:10.943372', '2015-03-08 15:18:10.943372')[0m
+  [1m[35m (113.6ms)[0m  COMMIT
+Redirected to http://localhost:3000upload_music
+Completed 302 Found in 216ms (ActiveRecord: 114.0ms)
+
+
+Started GET "/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css?body=1" for 10.0.2.2 at 2015-03-08 15:18:26 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/session-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 10.0.2.2 at 2015-03-08 15:18:26 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 10.0.2.2 at 2015-03-08 15:18:26 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 10.0.2.2 at 2015-03-08 15:18:26 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/session-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 10.0.2.2 at 2015-03-08 15:18:26 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 10.0.2.2 at 2015-03-08 15:18:26 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application-5101c80a68c0d92c4cef8ea8f46316ff.js?body=1" for 10.0.2.2 at 2015-03-08 15:18:26 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mMusic Load (0.3ms)[0m  [1mSELECT `musics`.* FROM `musics`[0m
+
+
+Started GET "/" for 10.0.2.2 at 2015-03-08 15:19:40 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by SessionController#start as HTML
+Redirected to http://localhost:3000/index
+Completed 302 Found in 37ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/logout" for 10.0.2.2 at 2015-03-08 15:19:41 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionController#logout as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 10.0.2.2 at 2015-03-08 15:19:41 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionController#start as HTML
+  Rendered session/start.html.erb within layouts/application (8.9ms)
+Completed 200 OK in 635ms (Views: 634.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 10.0.2.2 at 2015-03-08 15:19:41 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css?body=1" for 10.0.2.2 at 2015-03-08 15:19:42 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/session-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 10.0.2.2 at 2015-03-08 15:19:42 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 10.0.2.2 at 2015-03-08 15:19:42 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 10.0.2.2 at 2015-03-08 15:19:42 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 10.0.2.2 at 2015-03-08 15:19:42 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/session-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 10.0.2.2 at 2015-03-08 15:19:42 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application-5101c80a68c0d92c4cef8ea8f46316ff.js?body=1" for 10.0.2.2 at 2015-03-08 15:19:42 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started POST "/login" for 10.0.2.2 at 2015-03-08 15:19:51 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionController#login as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"6dKSq4bR7hEAr52G+nZWCxaw8TEYkSPET911OT7aNivnQvtZ52r7EG0a8unLiTelZUtTdBWrVVhKd7CrssMMnQ==", "username"=>"darkmega12", "password"=>"[FILTERED]"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`username` = 'darkmega12'
+Redirected to http://localhost:3000/
+Completed 302 Found in 164ms (ActiveRecord: 1.1ms)
+
+
+Started GET "/" for 10.0.2.2 at 2015-03-08 15:19:51 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionController#start as HTML
+Redirected to http://localhost:3000/index
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for 10.0.2.2 at 2015-03-08 15:19:51 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MusicPlayerController#index as HTML
+  [1m[36mPlaylist Load (0.1ms)[0m  [1mSELECT `playlists`.* FROM `playlists` WHERE `playlists`.`user_id` = 4[0m
+  Rendered music_player/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 461ms (Views: 409.6ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css?body=1" for 10.0.2.2 at 2015-03-08 15:19:52 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/session-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 10.0.2.2 at 2015-03-08 15:19:52 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 10.0.2.2 at 2015-03-08 15:19:52 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application-5101c80a68c0d92c4cef8ea8f46316ff.js?body=1" for 10.0.2.2 at 2015-03-08 15:19:52 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started POST "/get_playlist" for 10.0.2.2 at 2015-03-08 15:19:55 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MusicPlayerController#play as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"hfCKlyZrTXGeWihWBWLjoGcQ4amfiXiklTpF2cJGYD+LYONlR9BYcPPvRzk0nYIOFOtD7JKzDjiQkIBLTl9aiQ==", "playlist_name"=>"test2"}
+  [1m[35mPlaylist Load (0.1ms)[0m  SELECT `playlists`.* FROM `playlists` WHERE `playlists`.`name` = 'test2' AND `playlists`.`user_id` = 4
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT `playlists`.* FROM `playlists` WHERE `playlists`.`name` = 'test2' AND `playlists`.`user_id` = 4[0m  [["name", "test2"], ["user_id", 4]]
+  [1m[35mMusic Load (0.4ms)[0m  SELECT `musics`.* FROM `musics` WHERE `musics`.`user_id` = 4 AND `musics`.`playlist_id` = 5
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT `musics`.* FROM `musics` WHERE `musics`.`user_id` = 4 AND `musics`.`playlist_id` = 5[0m  [["user_id", 4], ["playlist_id", 5]]
+  Rendered music_player/play.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 383ms (Views: 340.6ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/assets/application-5101c80a68c0d92c4cef8ea8f46316ff.js?body=1" for 10.0.2.2 at 2015-03-08 15:19:56 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255

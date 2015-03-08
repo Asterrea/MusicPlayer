@@ -14,7 +14,6 @@ class Playlist < ActiveRecord::Base
 
 	def self.getPlaylist(name, user_id)
 		playlist = Playlist.where(name: name, user_id: user_id).to_a.first
-		puts("this is p."+playlist.id.to_s)
 		playlist
 	end
 

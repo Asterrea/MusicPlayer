@@ -64,7 +64,7 @@ Rails.application.routes.draw do
   get '/new_playlist' => 'music_player#new_playlist'
   post '/new_playlist' => 'music_player#create_playlist'
   post '/get_playlist' => 'music_player#play'
-  post 'upload_music' => 'music_player#upload'
-  get '/play' => 'music_player#play'
+  post 'upload_music' => 'music_player#upload_music'
+  get '/updated_play' => 'music_player#updated_play'
 
 end

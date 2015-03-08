@@ -13,7 +13,9 @@ File Name: <input type='text' name='name'/> <br><br>
 
 Songs in Playlist:
 <table>
-	<% for song in @songs %>
-	<tr> <td> <% song.name %> </td> </tr>
+	<% if @mSize > 0 %>
+		<% for song in @songs %>
+		<tr> <td> <% song.name %> </td> </tr>
+		<% end %>
 	<% end %>
 </table>
