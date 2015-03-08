@@ -1,0 +1,10 @@
+<div id='loginContent'>
+	<%= form_tag('login', method: :post) do %>
+		Username: <input type='text' name='username'> <br><br>
+		Password: <input type='password' name='password'> <br><br>
+		<input type='submit' value='Sign In'>
+	<% end %>
+	<button onclick="window.location = '/register' ">Register</button> 
+	
+</div>
+<div id='footer'></div>

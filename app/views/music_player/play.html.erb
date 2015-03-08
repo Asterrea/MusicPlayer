@@ -1,0 +1,19 @@
+<h2> Welcome, <%= @name %>! </h2>
+<button onclick="window.location = '/logout'"> Log Out </button>
+<br>
+<h3> Current Playlist: <%= @playlist_name %> </h3>
+<br>
+
+<h3> Add songs to playlist </h3>
+<%= form_tag('upload_music', :multipart => true) do %>
+File Name: <input type='text' name='name'/> <br><br>
+<%= file_field_tag 'upload' %><br>
+<input type='submit' value='Upload'/>
+<% end %>
+
+Songs in Playlist:
+<table>
+	<% for song in @songs %>
+	<tr> <td> <% song.name %> </td> </tr>
+	<% end %>
+</table>

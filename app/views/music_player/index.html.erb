@@ -1,1 +1,20 @@
-<p> Welcome <%= @username%>! </p>
+<h2> Welcome, <%= @name %>! </h2>
+<button onclick="window.location = '/logout'"> LogOut </button>
+<br>
+Playlists
+<button onclick= "window.location = '/new_playlist' ">Create</button><br>
+
+<br>Select Playlist
+<select id='playlistSelector'>
+   <%if @pSize > 0 %>
+   	<% for playlist in @playlists %>
+   	<option value= '<%= playlist.name %>' > <%= playlist.name %> </option>
+   	<% end %>
+   <% end %>
+</select> <br>
+
+<%= form_tag('/get_playlist', method: :post) do %>
+Playlist: <input type='text' name='playlist_name' id='pName'>
+<input type='submit' value='Go to Playlist'>
+<% end %>
+

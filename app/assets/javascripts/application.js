@@ -14,10 +14,14 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require_tree .
-//= require audiojs
-//= require music_player.js
 
-function asd(wow)
+function face()
 {
-	console.log(wow);
+	console.log("face");
 }
+
+$(document).ready(function() {
+	$("#playlistSelector").click(function(){
+		$("#pName").val($("#playlistSelector").val());
+	});
+});

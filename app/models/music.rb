@@ -1,4 +1,10 @@
 class Music < ActiveRecord::Base
-	belongs_to :playlist, foreign_key: "playlist_id"
-	belongs_to :user, foreign_key: "user_id"
+	def self.create_music(name, path, user_id, playlist_id)
+		music = Music.create(name: name, path: path, user_id: user_id, playlist_id: playlist_id)
+	end
+
+	def self.get_all(user_id, playlist_id)
+		music = Music.all.to_a
+		music
+	end
 end
